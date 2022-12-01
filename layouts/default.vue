@@ -5,9 +5,5 @@
         <slot />
     </section>
 
-    <footer>
-        <h1>
-            This is footer
-        </h1>
-    </footer>
+    <NavigationFoot />
 </template>

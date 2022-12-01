@@ -2,12 +2,13 @@
     <header class="container mx-auto">
         <section class="flex flex-row w-full justify-between items-center border border-gray-200 mb-2">
             <p class="text-sm font-sans tracking-tight px-2">
-                You're at Homepage
+                Welcome
             </p>
-            <ul class="list-none flex flex-row m-0 p-0 gap-2 px-2">
-                <li v-for="i in 3">
-                    <a href="#" class="text-black hover:text-orange-500 transition transition-all">
-                        <Icon name="bxl:dribbble" size="1rem" />
+            <ul class="list-none flex flex-row items-center m-0 p-0 gap-2 px-2">
+                <li v-for="link in links">
+                    <a :href="link.url" target="_blank"
+                        class="text-black hover:text-orange-500 transition transition-all">
+                        <Icon :name="link.icon" size="1rem" />
                     </a>
                 </li>
             </ul>
@@ -27,16 +28,16 @@
         </section>
 
         <section
-            class="w-full h-screen fixed top-0 left-0 bg-yellow-50 op-100 transition transition-opacity duration-500"
+            class="w-full h-screen fixed top-0 left-0 bg-yellow-50 op-100 transition transition-opacity duration-500 overflow-none"
             v-if="menu">
             <div class="container mx-auto text-center lg:text-right">
 
                 <ul class="w-full list-none px-2 py-10 m-0 flex flex-col gap-10 items-center lg:items-end ">
                     <li v-for="url in urls">
-                        <a :href="url.path"
+                        <NuxtLink :to="url.path" @click="this.menu = !this.menu"
                             class="text-black text-7xl hover:text-orange-500 no-underline hover:underline font-sans font-bold tracking-tight transition transition-all">
                             {{ url.title }}.
-                        </a>
+                        </NuxtLink>
                     </li>
                 </ul>
 
@@ -71,6 +72,24 @@ export default defineComponent({
                 blog: {
                     title: 'blog',
                     path: '/blog'
+                }
+            },
+            links: {
+                dribbble: {
+                    url: 'https://dribbble.com/madsouris',
+                    icon: 'bxl:dribbble'
+                },
+                linkedin: {
+                    url: 'https://linkedin.com/in/madsouris',
+                    icon: 'ri:linkedin-fill'
+                },
+                github: {
+                    url: 'https://github.com/madsouris',
+                    icon: 'mdi:github'
+                },
+                mail: {
+                    url: 'mailto:me@vannrith.com',
+                    icon: 'material-symbols:mail-outline-rounded'
                 }
             }
         }
