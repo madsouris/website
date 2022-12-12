@@ -38,4 +38,24 @@
         </div>
     </section>
 
+    <section class="container mx-auto mb-2">
+        <div class="border border-gray-200 mt-2 p-2 flex flex-row gap-2 items-end">
+            <div>
+                <h2 class="font-sans tracking-tight mb-2">
+                    projects overview
+                </h2>
+                <a href="#"
+                    class="font-sans tracking-tight text-black no-underline hover:underline hover:text-orange-500 transition-all">
+                    all projects
+                    <Icon name="material-symbols:arrow-right-alt-rounded" size="1.5rem"></Icon>
+                </a>
+            </div>
+            <div class="flex-grow bg-black h-68">
+
+            </div>
+        </div>
+    </section>
+
+    <CallToAction />
+
 </template>
