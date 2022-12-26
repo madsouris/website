@@ -1,7 +1,9 @@
 <template>
-    <NavigationTop />
+    <div class="container mx-auto lg:w-2/3 p-2">
+        <NavigationTop />
 
-    <slot />
+        <slot />
 
-    <NavigationFoot />
+        <NavigationFoot />
+    </div>
 </template>
