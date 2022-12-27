@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: ['nuxt-icon', 'nuxt-windicss', '@nuxt/image-edge'],
+    modules: [
+        'nuxt-icon',
+        'nuxt-windicss',
+        '@nuxt/image-edge',
+        '@nuxt/content',
+    ],
     app: {
         head: {
             title: 'Souris | Product Designer in Phnom Penh',
@@ -25,7 +30,12 @@ export default defineNuxtConfig({
     windicss: {
         config: {
             darkMode: 'media',
-            plugins: [require('windicss/plugin/aspect-ratio')],
+            plugins: [
+                require('windicss/plugin/aspect-ratio'),
+                require('windicss/plugin/typography')({
+                    dark: true,
+                }),
+            ],
         },
     },
 })
