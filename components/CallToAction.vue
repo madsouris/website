@@ -2,8 +2,8 @@
     <section class="container mx-auto">
         <div class="flex flex-col md:flex-row gap-2">
             <div class="md:w-1/3 border border-gray-200 dark:border-gray-900 p-2 aspect-square">
-                <img src="/img/dachbay.JPEG" alt="broke lmao"
-                    class="w-full aspect-1 object-cover block m-0 p-0 filter grayscale-0 lg:grayscale hover:grayscale-0 transition transition-all">
+                <nuxt-img src="/img/dachbay.JPEG" alt="broke lmao" loading="lazy"
+                    class="w-full aspect-1 object-cover block m-0 p-0 filter grayscale-0 lg:grayscale hover:grayscale-0 transition transition-all" />
             </div>
             <div class="flex-grow border border-gray-200 dark:border-gray-900 p-2 flex flex-col justify-end">
                 <h1 class="text-7xl text-black dark:text-white tracking-tight font-bold font-sans mb-2">

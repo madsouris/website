@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: ['nuxt-icon', 'nuxt-windicss'],
+    modules: ['nuxt-icon', 'nuxt-windicss', '@nuxt/image-edge'],
     app: {
         head: {
             title: 'Souris | Product Designer in Phnom Penh',
