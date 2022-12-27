@@ -63,10 +63,10 @@
                     people always argue that
                     CSS is not a programming language all the time, I understand). Since the world we’re living right
                     now focus heavily on
-                    Javascript to build everything from website to mobile app to desktop app, I also am studying and
+                    Javascript to build everything from website to mobile app to desktop app, I also am playing and
                     working with Javascript
-                    and other frameworks like Vue and Framework7. But in general, my main focus is to bring my UI design
-                    to life, let the
+                    and other frameworks like Vue, Nuxt and Ionic. But in general, my main focus is to bring my UI
+                    design to life, let the
                     smarter people figure out the architecture and backend part.
                 </p>
             </div>
