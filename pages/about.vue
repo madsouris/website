@@ -98,6 +98,17 @@
     <CallToAction />
 </template>
 
+<script setup lang="ts">
+useHead({
+    title: 'About | Souris | Product Designer',
+    meta: [
+        {
+            name: 'description', content: 'I do love minimal design. Being a Cambodian, surrounded by busy-designs, inspired me to make something different, design to solve issue instead of making it look a certain way.'
+        }
+    ],
+})
+</script>
+
 <script lang="ts">
 export default defineComponent({
     data() {
