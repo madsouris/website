@@ -13,5 +13,8 @@
     "nuxt": "3.0.0",
     "nuxt-icon": "^0.1.7",
     "nuxt-windicss": "^2.6.0"
+  },
+  "dependencies": {
+    "spotlight.js": "^0.7.8"
   }
 }

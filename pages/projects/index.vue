@@ -20,11 +20,19 @@
                                 {{ project.title }}
                             </h3>
                             <p class="text-black dark:text-white flex-1">
-                                {{ project.description }}
+                                {{
+                                    project.excerpt.children[0].children[0]
+                                        .value
+                                }}
                             </p>
                             <div class="md:w-1/4 h-full aspect-square">
-                                <img
-                                    src="/img/feature.jpg"
+                                <NuxtImg
+                                    loading="lazy"
+                                    :src="
+                                        project.img != ''
+                                            ? project.img
+                                            : '/img/feature.jpg'
+                                    "
                                     alt="featured"
                                     class="w-full h-full object-cover object-center" />
                             </div>

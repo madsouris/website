@@ -14,7 +14,7 @@
                         <NuxtLink
                             to="/projects"
                             class="text-black dark:text-white hover:text-orange-500 tracking-tight mb-4 inline-flex gap-2 items-center">
-                            <Icon name="bx:arrow-back" size="1rem" /> back to
+                            <Icon name="bx:arrow-back" size="18px" /> back to
                             projects
                         </NuxtLink>
                         <h1
@@ -25,6 +25,16 @@
                             class="text-black dark:text-white my-4 text-xl leading-tight">
                             {{ doc.description }}
                         </p>
+                        <NuxtImg
+                            loading="lazy"
+                            :src="doc.img != '' ? doc.img : '/img/feature.jpg'"
+                            class="w-full mb-4 cursor-pointer spotlight"
+                            :data-src="
+                                doc.img != '' ? doc.img : '/img/feature.jpg'
+                            "
+                            data-control="fullscreen,close"
+                            data-title="false"
+                            alt="Fatured" />
                         <ul>
                             <li>
                                 Status:
