@@ -15,10 +15,16 @@
                     <NuxtLink :to="project._path">
                         <div
                             class="border border-gray-200 dark:border-gray-900 p-2 flex flex-col md:flex-row gap-2 w-full mb-2 hover:border-orange-500">
-                            <h3
-                                class="text-2xl font-bold tracking-tight text-black dark:text-white md:w-1/3 lg:w-1/4">
-                                {{ project.title }}
-                            </h3>
+                            <div class="md:w-1/3 lg:w-1/4">
+                                <h3
+                                    class="text-2xl font-bold tracking-tight text-black dark:text-white">
+                                    {{ project.title }}
+                                </h3>
+                                <p class="text-sm text-black dark:text-white">
+                                    {{ project.type }}
+                                </p>
+                            </div>
+
                             <p class="text-black dark:text-white flex-1">
                                 {{
                                     project.excerpt.children[0].children[0]
