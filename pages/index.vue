@@ -15,7 +15,7 @@
                 </p>
                 <NuxtLink
                     to="/about"
-                    class="text-white dark:text-black tracking-tight font-sans no-underline py-3 px-5 bg-black dark:bg-white inline-block hover:bg-orange-500 transition transition-all">
+                    class="text-white dark:text-black font-bold tracking-tight font-sans no-underline py-3 px-5 bg-black dark:bg-white inline-block hover:bg-orange-500 transition transition-all">
                     about me.</NuxtLink
                 >
             </div>
@@ -55,6 +55,7 @@
                 <h2 class="font-sans tracking-tight mb-2 text-3xl font-bold">
                     projects overview
                 </h2>
+                <p>Click to view full size</p>
                 <NuxtLink
                     to="/projects"
                     class="font-sans tracking-tight text-black dark:text-white no-underline hover:underline hover:text-orange-500 transition-all">
@@ -66,7 +67,7 @@
             </div>
             <div class="basis-full md:basis-2/3">
                 <div class="grid grid-cols-2 gap-2">
-                    <div class="h-full aspect-square">
+                    <div class="h-full aspect-video">
                         <NuxtImg
                             src="/img/hangme.png"
                             data-src="/img/hangme.png"
@@ -76,7 +77,7 @@
                             loading="lazy"
                             class="spotlight w-full h-full object-cover object-center cursor-pointer hover:opacity-90" />
                     </div>
-                    <div class="h-full aspect-square">
+                    <div class="h-full aspect-video">
                         <NuxtImg
                             src="/img/meta.png"
                             data-src="/img/meta.png"
@@ -86,7 +87,7 @@
                             loading="lazy"
                             class="spotlight w-full h-full object-cover object-center cursor-pointer hover:opacity-90" />
                     </div>
-                    <div class="h-full aspect-square">
+                    <div class="h-full aspect-video">
                         <NuxtImg
                             src="/img/startpage.png"
                             data-src="/img/startpage.png"
@@ -96,7 +97,7 @@
                             loading="lazy"
                             class="spotlight w-full h-full object-cover object-center cursor-pointer hover:opacity-90" />
                     </div>
-                    <div class="h-full aspect-square">
+                    <div class="h-full aspect-video">
                         <NuxtImg
                             src="/img/ronin.png"
                             data-src="/img/ronin.png"
