@@ -13,7 +13,7 @@
                         class="md:w-1/3 lg:w-1/4 p-2 border border-gray-200 dark:border-gray-900 md:mb-2 md:sticky top-[112px]">
                         <NuxtLink
                             to="/projects"
-                            class="text-black dark:text-white hover:text-orange-500 tracking-tight mb-4 inline-flex gap-2 items-center">
+                            class="text-orange-500 tracking-tight mb-4 inline-flex gap-2 items-center">
                             <Icon name="bx:arrow-back" size="18px" /> back to
                             projects
                         </NuxtLink>
@@ -22,7 +22,7 @@
                             {{ doc.title }}
                         </h1>
                         <p
-                            class="text-black dark:text-white my-4 text-xl leading-tight">
+                            class="text-black dark:text-white my-4 leading-tight">
                             {{ doc.description }}
                         </p>
                         <NuxtImg

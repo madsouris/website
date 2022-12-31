@@ -45,7 +45,7 @@
                         <NuxtLink
                             :to="url.path"
                             @click="this.menu = !this.menu"
-                            class="text-black dark:text-white text-7xl hover:text-orange-500 no-underline hover:underline font-sans font-bold tracking-tight transition transition-all">
+                            class="text-black dark:text-white text-5xl md:text-7xl hover:text-orange-500 no-underline hover:underline font-sans font-bold tracking-tight transition transition-all">
                             {{ url.title }}.
                         </NuxtLink>
                     </li>
@@ -53,7 +53,7 @@
 
                 <button
                     @click="this.menu = !this.menu"
-                    class="text-2xl text-black dark:text-white hover:text-orange-500 border-0 bg-transparent outline-0 cursor-pointer p-0 mt-10">
+                    class="text-2xl text-orange-500 border-0 bg-transparent outline-0 cursor-pointer p-0 mt-6 md:mt-10">
                     <Icon name="mdi:close-thick" size="48px" />
                 </button>
             </div>

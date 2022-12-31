@@ -25,21 +25,21 @@
                     <li class="mt-2">
                         <NuxtLink
                             to="/projects"
-                            class="font-sans text-black dark:text-white no-underline tracking-tight hover:text-orange-500 hover:underline">
+                            class="font-sans font-bold text-black dark:text-white no-underline tracking-tight hover:text-orange-500 hover:underline">
                             projects.
                         </NuxtLink>
                     </li>
                     <li class="mt-2">
                         <NuxtLink
                             to="/about"
-                            class="font-sans text-black dark:text-white no-underline tracking-tight hover:text-orange-500 hover:underline">
+                            class="font-sans font-bold text-black dark:text-white no-underline tracking-tight hover:text-orange-500 hover:underline">
                             about me.</NuxtLink
                         >
                     </li>
                     <li class="mt-2">
                         <NuxtLink
                             to="/blog"
-                            class="font-sans text-black dark:text-white no-underline tracking-tight hover:text-orange-500 hover:underline">
+                            class="font-sans font-bold text-black dark:text-white no-underline tracking-tight hover:text-orange-500 hover:underline">
                             blog.</NuxtLink
                         >
                     </li>
@@ -52,13 +52,13 @@
         <div
             class="border border-gray-200 dark:border-gray-900 mt-2 p-2 flex flex-col md:flex-row gap-2 items-start md:items-end">
             <div class="basis-full md:basis-1/3">
-                <h2 class="font-sans tracking-tight mb-2 text-3xl font-bold">
+                <h2 class="font-sans tracking-tight text-3xl font-bold">
                     projects overview
                 </h2>
-                <p>Click to view full size</p>
+                <p class="mb-2">click to view full size</p>
                 <NuxtLink
                     to="/projects"
-                    class="font-sans tracking-tight text-black dark:text-white no-underline hover:underline hover:text-orange-500 transition-all">
+                    class="font-sans tracking-tight no-underline hover:underline text-orange-500 transition-all">
                     all projects
                     <Icon
                         name="material-symbols:arrow-right-alt-rounded"

@@ -44,7 +44,7 @@
                     class="border border-gray-200 dark:border-gray-900 p-2 mb-2 h-64 w-full flex flex-row justify-center items-center">
                     <h1
                         class="text-2xl font-bold tracking-tight text-black dark:text-white text-center">
-                        No blog post found.
+                        no blog post yet.
                     </h1>
                 </div>
             </template>

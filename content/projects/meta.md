@@ -7,6 +7,27 @@ link: ''
 tools: 'Xamarin, Figma'
 duration: '1 Week'
 img: '/img/meta.png'
+head:
+    {
+        meta:
+            [
+                { property: 'og:title', content: 'Ronin Pentest | Souris' },
+                {
+                    property: 'og:description',
+                    content: 'Ronin Pentest is a British cyber security agency aims to make cyber security more accessible for companies at any sizes.',
+                },
+                { property: 'og:image', content: '/img/ronin.png' },
+                { property: 'twitter:image', content: '/img/ronin.png' },
+                {
+                    property: 'twitter:title',
+                    content: 'Ronin Pentest | Souris',
+                },
+                {
+                    property: 'twitter:description',
+                    content: 'Ronin Pentest is a British cyber security agency aims to make cyber security more accessible for companies at any sizes.',
+                },
+            ],
+    }
 ---
 
 but why i'm here
