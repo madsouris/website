@@ -1,6 +1,6 @@
 ---
 title: 'Meta donation app prototype'
-description: 'something in the way, please read the manual before dying'
+description: 'Meta was an app prototype for donations. Users can donate to various charities using multiple payment solutions and collect the badges.'
 status: 'Dead'
 type: 'Design and Development'
 link: ''
@@ -11,38 +11,42 @@ head:
     {
         meta:
             [
-                { property: 'og:title', content: 'Ronin Pentest | Souris' },
+                {
+                    property: 'og:title',
+                    content: 'Meta donation app prototype | Souris',
+                },
                 {
                     property: 'og:description',
-                    content: 'Ronin Pentest is a British cyber security agency aims to make cyber security more accessible for companies at any sizes.',
+                    content: 'Meta was an app prototype for donations. Users can donate to various charities using multiple payment solutions and collect the badges.',
                 },
-                { property: 'og:image', content: '/img/ronin.png' },
-                { property: 'twitter:image', content: '/img/ronin.png' },
+                { property: 'og:image', content: '/img/meta.png' },
+                { property: 'twitter:image', content: '/img/meta.png' },
                 {
                     property: 'twitter:title',
-                    content: 'Ronin Pentest | Souris',
+                    content: 'Meta donation app prototype | Souris',
                 },
                 {
                     property: 'twitter:description',
-                    content: 'Ronin Pentest is a British cyber security agency aims to make cyber security more accessible for companies at any sizes.',
+                    content: 'Meta was an app prototype for donations. Users can donate to various charities using multiple payment solutions and collect the badges.',
                 },
             ],
     }
 ---
 
-but why i'm here
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae lacinia nisi. Suspendisse sit amet ex id magna pharetra imperdiet. Aliquam vitae felis vel erat congue rhoncus non a mauris. Nam maximus ante ac purus semper, vitae accumsan urna tempus. Suspendisse arcu nibh, pellentesque tincidunt velit sagittis, fringilla tristique tellus. Donec nec diam quis sem accumsan porttitor quis nec nisl. Aenean blandit pharetra ullamcorper. Maecenas sed malesuada ante, nec malesuada dui. Etiam facilisis in orci at suscipit. Donec rhoncus mattis nibh, ut ultrices eros tincidunt in. Proin accumsan justo a sagittis mollis.
+Meta was an app prototype for donations. Users can donate to various charities using multiple payment solutions and collect the badges.
+
+Meta is a Khmer word, that translates to “Mercy”.
 
 <!--more-->
 
-Nunc ac tincidunt mauris. In hac habitasse platea dictumst. Duis scelerisque et elit quis ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin a pharetra est, nec sagittis metus. Cras sagittis convallis fringilla. Duis venenatis enim at faucibus condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam at neque enim. Suspendisse sed purus id neque venenatis fringilla in quis massa. Morbi iaculis vitae lectus sed ultrices. Donec venenatis placerat dui viverra fringilla. Quisque ac nibh vitae ex sodales pharetra eget eu metus. Donec sollicitudin orci id mauris pellentesque, sed porta justo suscipit.
+# Design
 
-Proin placerat velit tellus, at pharetra magna finibus sit amet. In eu malesuada nibh, eu consequat augue. Vivamus ornare, erat in vulputate sollicitudin, massa mi ultricies diam, sed pretium augue mi id purus. Mauris ut accumsan mauris. In pharetra fringilla varius. Etiam luctus mollis metus at pretium. Nullam fermentum augue tincidunt eleifend lobortis.
+![Meta app](/img/meta.png)
 
-![Hangme website](/img/hangme.png)
+I designed Meta using pastel-styled colors and made it simple as I can. The app is exclusively available on mobile phones, so the navigation, transitions, etc were made with mobile in mind. To keep it simple and controlled, I specifically disabled dark mode, so everyone will receive the same experience.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae lacinia nisi. Suspendisse sit amet ex id magna pharetra imperdiet. Aliquam vitae felis vel erat congue rhoncus non a mauris. Nam maximus ante ac purus semper, vitae accumsan urna tempus. Suspendisse arcu nibh, pellentesque tincidunt velit sagittis, fringilla tristique tellus. Donec nec diam quis sem accumsan porttitor quis nec nisl. Aenean blandit pharetra ullamcorper. Maecenas sed malesuada ante, nec malesuada dui. Etiam facilisis in orci at suscipit. Donec rhoncus mattis nibh, ut ultrices eros tincidunt in. Proin accumsan justo a sagittis mollis.
+# Development
 
-Nunc ac tincidunt mauris. In hac habitasse platea dictumst. Duis scelerisque et elit quis ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin a pharetra est, nec sagittis metus. Cras sagittis convallis fringilla. Duis venenatis enim at faucibus condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam at neque enim. Suspendisse sed purus id neque venenatis fringilla in quis massa. Morbi iaculis vitae lectus sed ultrices. Donec venenatis placerat dui viverra fringilla. Quisque ac nibh vitae ex sodales pharetra eget eu metus. Donec sollicitudin orci id mauris pellentesque, sed porta justo suscipit.
+The app was pushed as a challenge at our local event, so we had like a week to complete it. After I finished the design in Figma, I started building the template using Xamarin and my friend can start binding data and other integrations using the Dotnet framework.
 
-Proin placerat velit tellus, at pharetra magna finibus sit amet. In eu malesuada nibh, eu consequat augue. Vivamus ornare, erat in vulputate sollicitudin, massa mi ultricies diam, sed pretium augue mi id purus. Mauris ut accumsan mauris. In pharetra fringilla varius. Etiam luctus mollis metus at pretium. Nullam fermentum augue tincidunt eleifend lobortis.
+The app was running great when testing, unfortunately, we didn’t win anything.

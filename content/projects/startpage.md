@@ -1,48 +1,51 @@
 ---
 title: 'Custom Startpage for Web Browser'
-description: 'something in the way, please read the manual before dying'
+description: 'Inspired by the folks from r/startpage and r/unixporn I decided to make this project. I really help me to open link faster when I launch my web browser.'
 status: 'Active'
 type: 'Design and Development'
 link: 'start.vannrith.com'
 tools: 'Vite, Vue'
 duration: '2022 - present'
-img: '/img/startpage.png'
+img: '/img/startpage-thumb.jpg'
 head:
     {
         meta:
             [
-                { property: 'og:title', content: 'Ronin Pentest | Souris' },
+                { property: 'og:title', content: 'Custom Startpage | Souris' },
                 {
                     property: 'og:description',
-                    content: 'Ronin Pentest is a British cyber security agency aims to make cyber security more accessible for companies at any sizes.',
+                    content: 'Inspired by the folks from r/startpage and r/unixporn I decided to make this project. I really help me to open link faster when I launch my web browser.',
                 },
-                { property: 'og:image', content: '/img/ronin.png' },
-                { property: 'twitter:image', content: '/img/ronin.png' },
+                { property: 'og:image', content: '/img/startpage-thumb.jpg' },
+                {
+                    property: 'twitter:image',
+                    content: '/img/startpage-thumb.jpg',
+                },
                 {
                     property: 'twitter:title',
-                    content: 'Ronin Pentest | Souris',
+                    content: 'Custom Startpage | Souris',
                 },
                 {
                     property: 'twitter:description',
-                    content: 'Ronin Pentest is a British cyber security agency aims to make cyber security more accessible for companies at any sizes.',
+                    content: 'Inspired by the folks from r/startpage and r/unixporn I decided to make this project. I really help me to open link faster when I launch my web browser.',
                 },
             ],
     }
 ---
 
-but why i'm here
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae lacinia nisi. Suspendisse sit amet ex id magna pharetra imperdiet. Aliquam vitae felis vel erat congue rhoncus non a mauris. Nam maximus ante ac purus semper, vitae accumsan urna tempus. Suspendisse arcu nibh, pellentesque tincidunt velit sagittis, fringilla tristique tellus. Donec nec diam quis sem accumsan porttitor quis nec nisl. Aenean blandit pharetra ullamcorper. Maecenas sed malesuada ante, nec malesuada dui. Etiam facilisis in orci at suscipit. Donec rhoncus mattis nibh, ut ultrices eros tincidunt in. Proin accumsan justo a sagittis mollis.
+Inspired by the folks from r/startpage and r/unixporn I decided to make this project. I really help me to open link faster when I launch my web browser.
 
-<!--more-->
+# Features
 
-Nunc ac tincidunt mauris. In hac habitasse platea dictumst. Duis scelerisque et elit quis ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin a pharetra est, nec sagittis metus. Cras sagittis convallis fringilla. Duis venenatis enim at faucibus condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam at neque enim. Suspendisse sed purus id neque venenatis fringilla in quis massa. Morbi iaculis vitae lectus sed ultrices. Donec venenatis placerat dui viverra fringilla. Quisque ac nibh vitae ex sodales pharetra eget eu metus. Donec sollicitudin orci id mauris pellentesque, sed porta justo suscipit.
+![startpage website](/img/startpage.png)
 
-Proin placerat velit tellus, at pharetra magna finibus sit amet. In eu malesuada nibh, eu consequat augue. Vivamus ornare, erat in vulputate sollicitudin, massa mi ultricies diam, sed pretium augue mi id purus. Mauris ut accumsan mauris. In pharetra fringilla varius. Etiam luctus mollis metus at pretium. Nullam fermentum augue tincidunt eleifend lobortis.
+-   Shortcut keys to go to each link faster without clicking
+-   Google search
+-   Responsive
+-   Progressive web app, it’s very fast
 
-![Hangme website](/img/hangme.png)
+# Development
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae lacinia nisi. Suspendisse sit amet ex id magna pharetra imperdiet. Aliquam vitae felis vel erat congue rhoncus non a mauris. Nam maximus ante ac purus semper, vitae accumsan urna tempus. Suspendisse arcu nibh, pellentesque tincidunt velit sagittis, fringilla tristique tellus. Donec nec diam quis sem accumsan porttitor quis nec nisl. Aenean blandit pharetra ullamcorper. Maecenas sed malesuada ante, nec malesuada dui. Etiam facilisis in orci at suscipit. Donec rhoncus mattis nibh, ut ultrices eros tincidunt in. Proin accumsan justo a sagittis mollis.
+I’m genuinely amazed by the speed of Vitejs, launching a dev server is very fast, and creating a project is also very easy, so I use it.
 
-Nunc ac tincidunt mauris. In hac habitasse platea dictumst. Duis scelerisque et elit quis ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin a pharetra est, nec sagittis metus. Cras sagittis convallis fringilla. Duis venenatis enim at faucibus condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam at neque enim. Suspendisse sed purus id neque venenatis fringilla in quis massa. Morbi iaculis vitae lectus sed ultrices. Donec venenatis placerat dui viverra fringilla. Quisque ac nibh vitae ex sodales pharetra eget eu metus. Donec sollicitudin orci id mauris pellentesque, sed porta justo suscipit.
-
-Proin placerat velit tellus, at pharetra magna finibus sit amet. In eu malesuada nibh, eu consequat augue. Vivamus ornare, erat in vulputate sollicitudin, massa mi ultricies diam, sed pretium augue mi id purus. Mauris ut accumsan mauris. In pharetra fringilla varius. Etiam luctus mollis metus at pretium. Nullam fermentum augue tincidunt eleifend lobortis.
+You probably know about utility class frameworks like Tailwind, I’m really into it. But I discover Windi and UnoCSS, UnoCSS is more like an experimental project to push the speed of front-end templating to the next level. I decided to use UnoCSS solely because I can use the custom value on the fly, and out of the box experience is complete for what I need.
