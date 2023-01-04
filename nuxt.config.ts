@@ -5,6 +5,13 @@ export default defineNuxtConfig({
         'nuxt-windicss',
         '@nuxt/image-edge',
         '@nuxt/content',
+        [
+            '@nuxtjs/robots',
+            {
+                UserAgent: '*',
+                Disallow: '',
+            },
+        ],
     ],
     app: {
         head: {
