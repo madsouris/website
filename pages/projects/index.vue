@@ -30,10 +30,10 @@
                                 }}
                             </p>
                             <div class="md:w-1/4 h-full aspect-square">
-                                <NuxtImg loading="lazy" :src="
-                                    project.img != ''
-                                        ? project.img
-                                        : '/feature.jpg'
+                                <img loading="lazy" :src="
+    project.img != ''
+        ? project.img
+        : '/img/feature.jpg'
                                 " alt="featured" class="w-full h-full object-cover object-center" />
                             </div>
                         </div>

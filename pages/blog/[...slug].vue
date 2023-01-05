@@ -20,7 +20,7 @@
                         <p class="text-black dark:text-white my-4 leading-tight">
                             by {{ doc.author }} in <b>{{ doc.category }}</b>
                         </p>
-                        <NuxtImg :src="doc.img != '' ? doc.img : '/feature.jpg'" class="w-full spotlight" loading="lazy"
+                        <img :src="doc.img != '' ? doc.img : '/img/feature.jpg'" class="w-full spotlight" loading="lazy"
                             alt="Fatured" />
                     </div>
                     <article

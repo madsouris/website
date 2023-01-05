@@ -2,7 +2,7 @@
     <div class="flex flex-col md:flex-row gap-2 mb-2 items-start">
         <div
             class="border border-gray-200 dark:border-gray-900 p-2 basis-full md:basis-1/3 lg:basis-1/4 md:sticky top-[112px]">
-            <nuxt-img src="/me600.jpg" loading="lazy" alt="my photo" class="w-full" />
+            <img src="/img/me600.jpg" loading="lazy" alt="my photo" class="w-full" />
             <div class="flex flex-col gap-2 mt-2">
                 <h1 class="text-2xl tracking-tight text-black dark:text-white font-bold font-sans mb-2">
                     Vannrith (វណ្ណរិទ្ធ) AKA. Souris

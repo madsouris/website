@@ -3,7 +3,6 @@ export default defineNuxtConfig({
     modules: [
         'nuxt-icon',
         'nuxt-windicss',
-        '@nuxt/image-edge',
         [
             '@kevinmarrec/nuxt-pwa',
             {

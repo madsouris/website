@@ -6,7 +6,7 @@ type: 'Design and Development'
 link: 'start.vannrith.com'
 tools: 'Vite, Vue'
 duration: '2022 - present'
-img: '/startpage-thumb.jpg'
+img: '/img/startpage-thumb.jpg'
 head:
     {
         meta:

@@ -21,10 +21,10 @@
                                 {{ blog.excerpt.children[0].children[0].value }}
                             </p>
                             <div class="md:w-1/4 h-full aspect-square">
-                                <NuxtImg :src="
-                                    blog.img != ''
-                                        ? blog.img
-                                        : '/feature.jpg'
+                                <img :src="
+    blog.img != ''
+        ? blog.img
+        : '/img/feature.jpg'
                                 " alt="featured" loading="lazy" class="w-full h-full object-cover object-center" />
                             </div>
                         </div>

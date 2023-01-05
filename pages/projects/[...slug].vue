@@ -21,7 +21,7 @@
                         <p class="text-black dark:text-white my-4 leading-tight">
                             {{ doc.description }}
                         </p>
-                        <NuxtImg loading="lazy" :src="doc.img != '' ? doc.img : '/feature.jpg'" class="w-full mb-4"
+                        <img loading="lazy" :src="doc.img != '' ? doc.img : '/img/feature.jpg'" class="w-full mb-4"
                             alt="Fatured" />
                         <ul>
                             <li>
