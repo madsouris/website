@@ -20,10 +20,8 @@
                         <p class="text-black dark:text-white my-4 leading-tight">
                             by {{ doc.author }} in <b>{{ doc.category }}</b>
                         </p>
-                        <NuxtImg :src="doc.img != '' ? doc.img : '/img/feature.jpg'"
-                            class="w-full spotlight cursor-pointer" loading="lazy" :data-src="
-    doc.img != '' ? doc.img : '/img/feature.jpg'
-" data-control="fullscreen,close" data-title="false" alt="Fatured" />
+                        <NuxtImg :src="doc.img != '' ? doc.img : '/img/feature.jpg'" class="w-full spotlight"
+                            loading="lazy" alt="Fatured" />
                     </div>
                     <article
                         class="prose max-w-none text-black dark:text-white flex-1 border border-gray-200 dark:border-gray-900 p-2 mb-2">
