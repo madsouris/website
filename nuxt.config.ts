@@ -4,6 +4,14 @@ export default defineNuxtConfig({
         'nuxt-icon',
         'nuxt-windicss',
         '@nuxt/image-edge',
+        [
+            '@kevinmarrec/nuxt-pwa',
+            {
+                workbox: {
+                    enabled: true,
+                },
+            },
+        ],
         '@nuxt/content',
         [
             '@nuxtjs/robots',
