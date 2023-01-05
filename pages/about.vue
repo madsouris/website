@@ -2,21 +2,14 @@
     <div class="flex flex-col md:flex-row gap-2 mb-2 items-start">
         <div
             class="border border-gray-200 dark:border-gray-900 p-2 basis-full md:basis-1/3 lg:basis-1/4 md:sticky top-[112px]">
-            <nuxt-img
-                src="/img/me600.jpg"
-                loading="lazy"
-                alt="my photo"
-                class="w-full" />
+            <nuxt-img src="/me600.jpg" loading="lazy" alt="my photo" class="w-full" />
             <div class="flex flex-col gap-2 mt-2">
-                <h1
-                    class="text-2xl tracking-tight text-black dark:text-white font-bold font-sans mb-2">
+                <h1 class="text-2xl tracking-tight text-black dark:text-white font-bold font-sans mb-2">
                     Vannrith (វណ្ណរិទ្ធ) AKA. Souris
                 </h1>
                 <ul>
                     <li v-for="link in links" :key="link.url">
-                        <a
-                            :href="link.url"
-                            target="_blank"
+                        <a :href="link.url" target="_blank"
                             class="inline-flex gap-2 items-center hover:text-orange-500">
                             <Icon :name="link.icon" size="18px" />
                             {{ link.name }}
@@ -26,10 +19,8 @@
             </div>
         </div>
         <div class="basis-full md:basis-2/3 lg:basis-3/4">
-            <div
-                class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 p-2">
-                <h1
-                    class="text-7xl text-black dark:text-white tracking-tight font-bold font-sans">
+            <div class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 p-2">
+                <h1 class="text-7xl text-black dark:text-white tracking-tight font-bold font-sans">
                     about me.
                 </h1>
                 <p>
@@ -67,10 +58,8 @@
                     impact the change.
                 </p>
             </div>
-            <div
-                class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 p-2 mt-2">
-                <h1
-                    class="text-2xl tracking-tight text-black dark:text-white font-bold font-sans">
+            <div class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 p-2 mt-2">
+                <h1 class="text-2xl tracking-tight text-black dark:text-white font-bold font-sans">
                     programming skills.
                 </h1>
                 <p>
@@ -86,10 +75,8 @@
                     architecture and backend part.
                 </p>
             </div>
-            <div
-                class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 p-2 mt-2">
-                <h1
-                    class="text-2xl tracking-tight text-black dark:text-white font-bold font-sans">
+            <div class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 p-2 mt-2">
+                <h1 class="text-2xl tracking-tight text-black dark:text-white font-bold font-sans">
                     design skills.
                 </h1>
                 <p>
@@ -103,10 +90,8 @@
                     professionally, so I only focus on one thing.
                 </p>
             </div>
-            <div
-                class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 p-2 mt-2">
-                <h1
-                    class="text-2xl tracking-tight text-black dark:text-white font-bold font-sans">
+            <div class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 p-2 mt-2">
+                <h1 class="text-2xl tracking-tight text-black dark:text-white font-bold font-sans">
                     about this website.
                 </h1>
                 <p>

@@ -6,7 +6,7 @@ type: 'Design and Development'
 link: 'color.vannrith.com'
 tools: 'Vue'
 duration: '2019 - present'
-img: '/img/colors-thumb.jpg'
+img: '/colors-thumb.jpg'
 head:
     {
         meta:

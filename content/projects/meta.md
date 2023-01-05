@@ -6,7 +6,7 @@ type: 'Design and Development'
 link: ''
 tools: 'Xamarin, Figma'
 duration: '1 Week'
-img: '/img/meta.png'
+img: '/meta.png'
 head:
     {
         meta:

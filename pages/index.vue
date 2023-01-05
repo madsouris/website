@@ -54,19 +54,19 @@
             <div class="basis-full md:basis-2/3">
                 <div class="grid grid-cols-2 gap-2">
                     <div class="h-full aspect-video">
-                        <NuxtImg src="/img/hangme.png" alt="Hangme" loading="lazy"
+                        <NuxtImg src="/hangme.png" alt="Hangme" loading="lazy"
                             class="w-full h-full object-cover object-center hover:opacity-90" />
                     </div>
                     <div class="h-full aspect-video">
-                        <NuxtImg src="/img/meta.png" alt="meta" loading="lazy"
+                        <NuxtImg src="/meta.png" alt="meta" loading="lazy"
                             class="w-full h-full object-cover object-center hover:opacity-90" />
                     </div>
                     <div class="h-full aspect-video">
-                        <NuxtImg src="/img/startpage.png" alt="startpage" loading="lazy"
+                        <NuxtImg src="/startpage.png" alt="startpage" loading="lazy"
                             class="w-full h-full object-cover object-center hover:opacity-90" />
                     </div>
                     <div class="h-full aspect-video">
-                        <NuxtImg src="/img/ronin.png" alt="ronin" loading="lazy"
+                        <NuxtImg src="/ronin.png" alt="ronin" loading="lazy"
                             class="w-full h-full object-cover object-center hover:opacity-90" />
                     </div>
                 </div>
