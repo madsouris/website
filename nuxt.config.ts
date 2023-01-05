@@ -9,6 +9,10 @@ export default defineNuxtConfig({
                 workbox: {
                     enabled: true,
                 },
+                manifest: {
+                    name: 'Souris',
+                    lang: 'en',
+                },
             },
         ],
         '@nuxt/content',
