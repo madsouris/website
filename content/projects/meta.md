@@ -29,6 +29,10 @@ head:
                     property: 'twitter:description',
                     content: 'Meta was an app prototype for donations. Users can donate to various charities using multiple payment solutions and collect the badges.',
                 },
+                {
+                    property: 'keywords',
+                    content: 'donation app,app design,app prototype',
+                },
             ],
     }
 ---
