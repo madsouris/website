@@ -44,3 +44,60 @@
         </ContentList>
     </main>
 </template>
+
+<script setup lang="ts">
+useHead({
+    title: 'Blog by Souris | Product Designer',
+    meta: [
+        {
+            property: 'twitter:title',
+            content: 'Blog by Souris | Product Designer',
+        },
+
+        {
+            property: 'og:title',
+            content: 'Blog by Souris | Product Designer',
+        },
+        {
+            name: 'description',
+            content:
+                'Graphic designer, product designer based in Phnom Penh',
+        },
+
+        {
+            property: 'og:description',
+            content:
+                'Graphic designer, product designer based in Phnom Penh',
+        },
+        {
+            property: 'twitter:description',
+            content:
+                'Graphic designer, product designer based in Phnom Penh',
+        },
+        {
+            property: 'og:type',
+            content: 'website',
+        },
+        {
+            property: 'og:url',
+            content: 'https://vannrith.com/blog',
+        },
+        {
+            property: 'og:image',
+            content: '/img/feature.jpg',
+        },
+        {
+            property: 'twitter:card',
+            content: 'summary_large_image',
+        },
+        {
+            property: 'twitter:url',
+            content: 'https://vannrith.com/blog',
+        },
+        {
+            property: 'twitter:image',
+            content: '/img/feature.jpg',
+        },
+    ],
+})
+</script>

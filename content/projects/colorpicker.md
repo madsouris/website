@@ -11,6 +11,7 @@ head:
     {
         meta:
             [
+                { property: 'title', content: 'Colors Picker | Souris' },
                 { property: 'og:title', content: 'Colors Picker | Souris' },
                 {
                     property: 'og:description',

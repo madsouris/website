@@ -11,6 +11,7 @@ head:
     {
         meta:
             [
+                { property: 'title', content: 'Startpage | Souris' },
                 { property: 'og:title', content: 'Custom Startpage | Souris' },
                 {
                     property: 'og:description',

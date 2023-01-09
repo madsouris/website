@@ -109,9 +109,53 @@ useHead({
     title: 'About | Souris | Product Designer',
     meta: [
         {
+            property: 'twitter:title',
+            content: 'About | Souris | Product Designer',
+        },
+
+        {
+            property: 'og:title',
+            content: 'About | Souris | Product Designer',
+        },
+        {
             name: 'description',
             content:
                 'I do love minimal design. Being a Cambodian, surrounded by busy-designs, inspired me to make something different, design to solve issue instead of making it look a certain way.',
+        },
+
+        {
+            property: 'og:description',
+            content:
+                'I do love minimal design. Being a Cambodian, surrounded by busy-designs, inspired me to make something different, design to solve issue instead of making it look a certain way.',
+        },
+        {
+            property: 'twitter:description',
+            content:
+                'I do love minimal design. Being a Cambodian, surrounded by busy-designs, inspired me to make something different, design to solve issue instead of making it look a certain way.',
+        },
+        {
+            property: 'og:type',
+            content: 'website',
+        },
+        {
+            property: 'og:url',
+            content: 'https://vannrith.com/about',
+        },
+        {
+            property: 'og:image',
+            content: '/img/feature.jpg',
+        },
+        {
+            property: 'twitter:card',
+            content: 'summary_large_image',
+        },
+        {
+            property: 'twitter:url',
+            content: 'https://vannrith.com/about',
+        },
+        {
+            property: 'twitter:image',
+            content: '/img/feature.jpg',
         },
     ],
 })

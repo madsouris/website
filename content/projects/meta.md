@@ -11,6 +11,7 @@ head:
     {
         meta:
             [
+                { property: 'title', content: 'Meta | Souris' },
                 {
                     property: 'og:title',
                     content: 'Meta donation app prototype | Souris',
