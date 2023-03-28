@@ -37,6 +37,8 @@ head:
 
 Inspired by the folks from r/startpage and r/unixporn I decided to make this project. I really help me to open link faster when I launch my web browser.
 
+<!--more-->
+
 # Features
 
 ![startpage website](/img/startpage.png)
