@@ -1,36 +1,54 @@
 <template>
     <section class="container mx-auto">
-        <div class="flex flex-col md:flex-row gap-2 sm:flex-wrap md:flex-nowrap">
-            <div class="px-2 pb-2 pt-16 border border-gray-200 dark:border-gray-900 sm:basis-full md:basis-1/2">
-                <h1 class="text-7xl text-black dark:text-white tracking-tight font-bold font-sans mb-2">
+        <div
+            class="flex flex-col md:flex-row gap-2 sm:flex-wrap md:flex-nowrap">
+            <div
+                class="px-2 pb-2 pt-16 border border-gray-200 dark:border-gray-900 sm:basis-full md:basis-1/2">
+                <h1
+                    class="text-7xl text-black dark:text-white tracking-tight font-bold font-sans mb-2">
                     welcome.
                 </h1>
-                <p class="font-sans text-black dark:text-white tracking-tight mb-4">
+                <p
+                    class="font-sans text-black dark:text-white tracking-tight mb-4">
                     I am a product and graphic designer currently working in
                     Phnom Penh, Cambodia. Clear big bold designs satisfied me.
                 </p>
-                <NuxtLink to="/about"
+                <NuxtLink
+                    to="/about"
                     class="text-white dark:text-black font-bold tracking-tight font-sans no-underline py-3 px-5 bg-black dark:bg-white inline-block hover:bg-orange-500 transition transition-all">
-                    about me.</NuxtLink>
+                    about me.</NuxtLink
+                >
             </div>
             <div
                 class="p-2 border border-gray-200 dark:border-gray-900 sm:basis-full md:basis-1/2 flex flex-col justify-end">
                 <ul class="p-0 m-0 list-none">
                     <li class="mt-2">
-                        <NuxtLink to="/projects"
+                        <NuxtLink
+                            to="/projects"
                             class="font-sans font-bold text-black dark:text-white no-underline tracking-tight hover:text-orange-500 hover:underline">
                             projects.
                         </NuxtLink>
                     </li>
                     <li class="mt-2">
-                        <NuxtLink to="/about"
+                        <NuxtLink
+                            to="/gallery"
                             class="font-sans font-bold text-black dark:text-white no-underline tracking-tight hover:text-orange-500 hover:underline">
-                            about me.</NuxtLink>
+                            gallery.
+                        </NuxtLink>
                     </li>
                     <li class="mt-2">
-                        <NuxtLink to="/blog"
+                        <NuxtLink
+                            to="/about"
                             class="font-sans font-bold text-black dark:text-white no-underline tracking-tight hover:text-orange-500 hover:underline">
-                            blog.</NuxtLink>
+                            about me.</NuxtLink
+                        >
+                    </li>
+                    <li class="mt-2">
+                        <NuxtLink
+                            to="/blog"
+                            class="font-sans font-bold text-black dark:text-white no-underline tracking-tight hover:text-orange-500 hover:underline">
+                            blog.</NuxtLink
+                        >
                     </li>
                 </ul>
             </div>
@@ -45,28 +63,43 @@
                     projects overview
                 </h2>
                 <p class="mb-2">click to view full size</p>
-                <NuxtLink to="/projects"
+                <NuxtLink
+                    to="/projects"
                     class="font-sans tracking-tight no-underline hover:underline text-orange-500 transition-all">
                     all projects
-                    <Icon name="material-symbols:arrow-right-alt-rounded" size="18px"></Icon>
+                    <Icon
+                        name="material-symbols:arrow-right-alt-rounded"
+                        size="18px"></Icon>
                 </NuxtLink>
             </div>
             <div class="basis-full md:basis-2/3">
                 <div class="grid grid-cols-2 gap-2">
                     <div class="h-full aspect-video">
-                        <img src="/img/hangme.png" alt="Hangme" loading="lazy"
+                        <img
+                            src="/img/hangme.png"
+                            alt="Hangme"
+                            loading="lazy"
                             class="w-full h-full object-cover object-center hover:opacity-90" />
                     </div>
                     <div class="h-full aspect-video">
-                        <img src="/img/meta.png" alt="meta" loading="lazy"
+                        <img
+                            src="/img/meta.png"
+                            alt="meta"
+                            loading="lazy"
                             class="w-full h-full object-cover object-center hover:opacity-90" />
                     </div>
                     <div class="h-full aspect-video">
-                        <img src="/img/startpage.png" alt="startpage" loading="lazy"
+                        <img
+                            src="/img/startpage.png"
+                            alt="startpage"
+                            loading="lazy"
                             class="w-full h-full object-cover object-center hover:opacity-90" />
                     </div>
                     <div class="h-full aspect-video">
-                        <img src="/img/ronin.png" alt="ronin" loading="lazy"
+                        <img
+                            src="/img/ronin.png"
+                            alt="ronin"
+                            loading="lazy"
                             class="w-full h-full object-cover object-center hover:opacity-90" />
                     </div>
                 </div>
@@ -92,19 +125,16 @@ useHead({
         },
         {
             name: 'description',
-            content:
-                'Graphic designer, product designer based in Phnom Penh',
+            content: 'Graphic designer, product designer based in Phnom Penh',
         },
 
         {
             property: 'og:description',
-            content:
-                'Graphic designer, product designer based in Phnom Penh',
+            content: 'Graphic designer, product designer based in Phnom Penh',
         },
         {
             property: 'twitter:description',
-            content:
-                'Graphic designer, product designer based in Phnom Penh',
+            content: 'Graphic designer, product designer based in Phnom Penh',
         },
         {
             property: 'og:type',

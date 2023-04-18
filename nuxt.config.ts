@@ -1,9 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+declare var require: any
+
 export default defineNuxtConfig({
     modules: [
         'nuxt-icon',
         'nuxt-windicss',
         '@nuxt/content',
+        '@nuxt/image-edge',
         [
             '@nuxtjs/robots',
             {
@@ -58,4 +61,9 @@ export default defineNuxtConfig({
     },
     typescript: {},
     webpack: {},
+    image: {    
+        imagekit: {      
+            baseURL: 'https://ik.imagekit.io/madsouris'    
+        }  
+    }
 })

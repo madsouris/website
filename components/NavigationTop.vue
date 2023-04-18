@@ -79,6 +79,10 @@ export default defineComponent({
                     title: 'projects',
                     path: '/projects',
                 },
+                gallery: {
+                    title: 'gallery',
+                    path: '/gallery',
+                },
                 about: {
                     title: 'about',
                     path: '/about',
@@ -86,10 +90,6 @@ export default defineComponent({
                 blog: {
                     title: 'blog',
                     path: '/blog',
-                },
-                gallery: {
-                    title: 'gallery',
-                    path: '/gallery',
                 },
             },
             links: {

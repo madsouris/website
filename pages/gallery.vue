@@ -1,41 +1,16 @@
 <template>
     <div class="flex flex-col md:flex-row gap-2 mb-2 items-start">
-        <div
-            class="border border-gray-200 dark:border-gray-900 p-2 basis-full md:basis-1/3 lg:basis-1/4 md:sticky top-[112px]">
-            <img
-                src="/img/me600.jpg"
-                loading="lazy"
-                alt="my photo"
-                class="w-full" />
-            <div class="flex flex-col gap-2 mt-2">
-                <h1
-                    class="text-2xl tracking-tight text-black dark:text-white font-bold font-sans mb-2">
-                    Vannrith (វណ្ណរិទ្ធ) AKA. Souris
-                </h1>
-            </div>
-        </div>
-        <div class="basis-full md:basis-2/3 lg:basis-3/4">
+        <div class="basis-full">
             <div
-                class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 p-2">
+                class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 px-2 py-12 text-center">
                 <h1
                     class="text-7xl text-black dark:text-white tracking-tight font-bold font-sans">
                     Gallery
                 </h1>
                 <p>
-                    My name is Vannrith Va, mostly known as Souris. I am a
-                    product designer and front-end developer working from Phnom
-                    Penh, Cambodia.
-                </p>
-            </div>
-            <div
-                class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 p-2 mt-2">
-                <h1
-                    class="text-2xl tracking-tight text-black dark:text-white font-bold font-sans">
-                    about this website.
-                </h1>
-                <p>
-                    This website was built with Nuxt 3, and some other goodies
-                    like Windi CSS and Netlify.
+                    Here are some of my works I've done over the years. <br />
+                    A lot of them I can't really show because they are the
+                    properties of my previous companies.
                 </p>
             </div>
         </div>
@@ -51,6 +26,12 @@
 
 <script setup lang="ts">
 useHead({
+    script: [
+        {
+            src: 'https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js',
+            type: 'text/javascript',
+        },
+    ],
     title: 'About | Souris | Product Designer',
     meta: [
         {
