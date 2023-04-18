@@ -1,10 +1,8 @@
 <template>
     <div class="flex flex-col md:flex-row gap-2 mb-2 items-start">
         <div class="basis-full">
-            <div
-                class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 px-2 py-12 text-center">
-                <h1
-                    class="text-7xl text-black dark:text-white tracking-tight font-bold font-sans">
+            <div class="flex flex-col gap-2 border border-gray-200 dark:border-gray-900 px-2 py-12 text-center">
+                <h1 class="text-7xl text-black dark:text-white tracking-tight font-bold font-sans">
                     Gallery
                 </h1>
                 <p>
@@ -26,12 +24,7 @@
 
 <script setup lang="ts">
 useHead({
-    script: [
-        {
-            src: 'https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js',
-            type: 'text/javascript',
-        },
-    ],
+
     title: 'About | Souris | Product Designer',
     meta: [
         {

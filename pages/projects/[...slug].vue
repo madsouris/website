@@ -9,8 +9,7 @@
             <template v-slot="{ doc }">
                 <div class="flex flex-col md:flex-row gap-2 items-start">
                     <div class="md:w-1/3 p-2 border border-gray-200 dark:border-gray-900 md:mb-2 md:sticky top-[112px]">
-                        <NuxtLink to="/projects"
-                            class="text-orange-500 tracking-tight mb-4 inline-flex gap-2 items-center">
+                        <NuxtLink to="/projects" class="text-orange-500 tracking-tight mb-4 inline-flex gap-2 items-center">
                             <Icon name="bx:arrow-back" size="18px" /> back to
                             projects
                         </NuxtLink>
@@ -20,8 +19,8 @@
                         <p class="text-black dark:text-white my-4 leading-tight">
                             {{ doc.description }}
                         </p>
-                        <img loading="lazy" :src="doc.img != '' ? doc.img : '/img/feature.jpg'" class="w-full mb-4"
-                            alt="Fatured" />
+                        <img loading="lazy" :src="doc.img != '' ? doc.img : '/img/feature.jpg'"
+                            class="w-full mb-4 spotlight" alt="Fatured" />
                         <ul>
                             <li>
                                 Status:
@@ -50,8 +49,8 @@
                             <li>
                                 Link:
                                 <b>
-                                    <a :href="'//' + doc.link" target="_blank"
-                                        class="no-underline hover:text-orange-500" rel="no-follow">
+                                    <a :href="'//' + doc.link" target="_blank" class="no-underline hover:text-orange-500"
+                                        rel="no-follow">
                                         {{ doc.link }}
                                     </a>
                                 </b>
