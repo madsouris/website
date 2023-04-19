@@ -6,7 +6,7 @@ type: 'Design and Development'
 link: ''
 tools: 'Xamarin, Figma'
 duration: '1 Week'
-img: '/img/meta.png'
+img: 'https://ik.imagekit.io/madsouris/vannrith/projects/meta.png?tr=600'
 head:
     {
         meta:
@@ -20,8 +20,14 @@ head:
                     property: 'og:description',
                     content: 'Meta was an app prototype for donations. Users can donate to various charities using multiple payment solutions and collect the badges.',
                 },
-                { property: 'og:image', content: '/img/meta.png' },
-                { property: 'twitter:image', content: '/img/meta.png' },
+                {
+                    property: 'og:image',
+                    content: 'https://ik.imagekit.io/madsouris/vannrith/projects/meta.png?tr=600',
+                },
+                {
+                    property: 'twitter:image',
+                    content: 'https://ik.imagekit.io/madsouris/vannrith/projects/meta.png?tr=600',
+                },
                 {
                     property: 'twitter:title',
                     content: 'Meta donation app prototype | Souris',
@@ -46,7 +52,7 @@ Meta is a Khmer word, that translates to “Mercy”.
 
 # Design
 
-![Meta app](/img/meta.png)
+![Meta app](https://ik.imagekit.io/madsouris/vannrith/projects/meta.png?tr=1200)
 
 I designed Meta using pastel-styled colors and made it simple as I can. The app is exclusively available on mobile phones, so the navigation, transitions, etc were made with mobile in mind. To keep it simple and controlled, I specifically disabled dark mode, so everyone will receive the same experience.
 

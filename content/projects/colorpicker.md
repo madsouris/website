@@ -6,7 +6,7 @@ type: 'Design and Development'
 link: 'color.vannrith.com'
 tools: 'Vue'
 duration: '2019 - present'
-img: '/img/colors-thumb.jpg'
+img: 'https://ik.imagekit.io/madsouris/vannrith/projects/colors-thumb.jpg?tr=w-600'
 head:
     {
         meta:
@@ -17,8 +17,14 @@ head:
                     property: 'og:description',
                     content: 'The colors picker is a personal project to help me find and copy color codes faster. It’s based on the old Google material guideline colors. I just made it click to copy the color.',
                 },
-                { property: 'og:image', content: '/img/colors-thumb.jpg' },
-                { property: 'twitter:image', content: '/img/colors-thumb.jpg' },
+                {
+                    property: 'og:image',
+                    content: 'https://ik.imagekit.io/madsouris/vannrith/projects/colors-thumb.jpg?tr=w-600',
+                },
+                {
+                    property: 'twitter:image',
+                    content: 'https://ik.imagekit.io/madsouris/vannrith/projects/colors-thumb.jpg?tr=w-600',
+                },
                 {
                     property: 'twitter:title',
                     content: 'Colors Picker | Souris',
@@ -42,7 +48,7 @@ The colors picker is a personal project to help me find and copy color codes fas
 # Development
 
 The color picker was created using Vue 2. It loops through color groups and displays each array in its order. With some other enhancements like click to copy, and the small toast pop-up to let the user know. While it’s never been updated for a long time, the app is still working great and does what I need it to do.
-![Colors website](/img/colors.png)
+![Colors website](https://ik.imagekit.io/madsouris/vannrith/projects/colors.png?tr=w=1200)
 
 # Features
 

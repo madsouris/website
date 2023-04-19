@@ -6,7 +6,7 @@ type: 'Design and Development'
 link: 'start.vannrith.com'
 tools: 'Vite, Vue'
 duration: '2022 - present'
-img: '/img/startpage-thumb.jpg'
+img: 'https://ik.imagekit.io/madsouris/vannrith/projects/startpage.png?tr=600'
 head:
     {
         meta:
@@ -17,10 +17,13 @@ head:
                     property: 'og:description',
                     content: 'Inspired by the folks from r/startpage and r/unixporn I decided to make this project. I really help me to open link faster when I launch my web browser.',
                 },
-                { property: 'og:image', content: '/img/startpage-thumb.jpg' },
+                {
+                    property: 'og:image',
+                    content: 'https://ik.imagekit.io/madsouris/vannrith/projects/startpage.png?tr=600',
+                },
                 {
                     property: 'twitter:image',
-                    content: '/img/startpage-thumb.jpg',
+                    content: 'https://ik.imagekit.io/madsouris/vannrith/projects/startpage.png?tr=600',
                 },
                 {
                     property: 'twitter:title',
@@ -41,7 +44,7 @@ Inspired by the folks from r/startpage and r/unixporn I decided to make this pro
 
 # Features
 
-![startpage website](/img/startpage.png)
+![startpage website](https://ik.imagekit.io/madsouris/vannrith/projects/startpage.png?tr=1200)
 
 -   Shortcut keys to go to each link faster without clicking
 -   Google search
