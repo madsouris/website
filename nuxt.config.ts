@@ -4,7 +4,6 @@ declare var require: any
 export default defineNuxtConfig({
     modules: [
         'nuxt-icon',
-        'nuxt-windicss',
         '@nuxt/content',
         '@nuxt/image-edge',
         [
@@ -15,6 +14,13 @@ export default defineNuxtConfig({
             },
         ],
     ],
+    css: ['~/assets/css/main.css'],
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+        },
+    },
     app: {
         head: {
             htmlAttrs: {
@@ -48,22 +54,11 @@ export default defineNuxtConfig({
             },
         },
     },
-    windicss: {
-        config: {
-            darkMode: 'media',
-            plugins: [
-                require('windicss/plugin/aspect-ratio'),
-                require('windicss/plugin/typography')({
-                    dark: true,
-                }),
-            ],
-        },
-    },
     typescript: {},
     webpack: {},
-    image: {    
-        imagekit: {      
-            baseURL: 'https://ik.imagekit.io/madsouris'    
-        }  
-    }
+    image: {
+        imagekit: {
+            baseURL: 'https://ik.imagekit.io/madsouris',
+        },
+    },
 })

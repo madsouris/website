@@ -96,7 +96,7 @@
                 </h1>
                 <p>
                     This website was built with Nuxt 3, and some other goodies
-                    like Windi CSS and Netlify.
+                    like TailwindCSS and Netlify.
                 </p>
             </div>
         </div>
@@ -180,11 +180,6 @@ export default defineComponent({
                     url: 'https://github.com/madsouris',
                     name: 'madsouris',
                     icon: 'mdi:github',
-                },
-                gitlab: {
-                    url: 'https://gitlab.com/madsouris',
-                    name: 'madsouris',
-                    icon: 'ph:gitlab-logo-bold',
                 },
                 dribbble: {
                     url: 'https://dribbble.com/madsouris',
