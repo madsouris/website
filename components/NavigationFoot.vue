@@ -7,7 +7,7 @@
         </section>
         <section class="p-2 flex-1 md:flex-0 border border-gray-200 dark:border-gray-900">
             <p class="font-sans text-sm tracking-tight text-black dark:text-white text-left md:text-right">
-                powered by Nuxt, Windi and Netlify, <a class="text-orange-500 font-bold"
+                powered by Nuxt, TailwindCSS and Netlify, <a class="text-orange-500 font-bold"
                     href="//github.com/madsouris/website" target="_blank">source
                     code</a>
             </p>
