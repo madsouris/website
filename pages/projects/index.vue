@@ -3,8 +3,7 @@
 <template>
     <main>
         <div class="border border-gray-200 dark:border-gray-900 p-2 mb-2">
-            <h2
-                class="text-7xl tracking-tight font-bold font-sans text-black dark:text-white m-0">
+            <h2 class="text-7xl tracking-tight font-bold font-sans text-black dark:text-white m-0">
                 projects
             </h2>
         </div>
@@ -16,8 +15,7 @@
                         <div
                             class="border border-gray-200 dark:border-gray-900 p-2 flex flex-col md:flex-row gap-2 w-full mb-2 hover:border-orange-500">
                             <div class="md:w-1/3 lg:w-1/4">
-                                <h3
-                                    class="text-2xl font-bold tracking-tight text-black dark:text-white">
+                                <h3 class="text-2xl font-bold tracking-tight text-black dark:text-white">
                                     {{ project.title }}
                                 </h3>
                                 <p class="text-sm text-black dark:text-white">
@@ -32,15 +30,10 @@
                                 }}
                             </p>
                             <div class="md:w-1/4 h-full aspect-square">
-                                <img
-                                    loading="lazy"
-                                    :src="
-                                        project.img != ''
+                                <img loading="lazy" :src="project.img != ''
                                             ? project.img
                                             : 'https://ik.imagekit.io/madsouris/vannrith/feature.jpg?tr=w-400,h-400'
-                                    "
-                                    alt="featured"
-                                    class="w-full h-full object-cover object-center" />
+                                        " alt="featured" class="w-full h-full object-cover object-center" />
                             </div>
                         </div>
                     </NuxtLink>
@@ -51,8 +44,7 @@
             <template #not-found>
                 <div
                     class="border border-gray-200 dark:border-gray-900 p-2 mb-2 h-64 w-full flex flex-row justify-center items-center">
-                    <h1
-                        class="text-2xl font-bold tracking-tight text-black dark:text-white text-center">
+                    <h1 class="text-2xl font-bold tracking-tight text-black dark:text-white text-center">
                         No project found.
                     </h1>
                 </div>
@@ -77,16 +69,16 @@ useHead({
         },
         {
             name: 'description',
-            content: 'Graphic designer, product designer based in Phnom Penh',
+            content: 'Souris, a product designer based in Cambodia, offers design services to businesses and individuals looking for creative solutions. With years of experience in graphic design, digital illustration, branding, and UX/UI design, my designs are tailored to match the unique needs of each client.',
         },
 
         {
             property: 'og:description',
-            content: 'Graphic designer, product designer based in Phnom Penh',
+            content: 'Souris, a product designer based in Cambodia, offers design services to businesses and individuals looking for creative solutions. With years of experience in graphic design, digital illustration, branding, and UX/UI design, my designs are tailored to match the unique needs of each client.',
         },
         {
             property: 'twitter:description',
-            content: 'Graphic designer, product designer based in Phnom Penh',
+            content: 'Souris, a product designer based in Cambodia, offers design services to businesses and individuals looking for creative solutions. With years of experience in graphic design, digital illustration, branding, and UX/UI design, my designs are tailored to match the unique needs of each client.',
         },
         {
             property: 'og:type',

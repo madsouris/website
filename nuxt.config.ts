@@ -48,6 +48,15 @@ export default defineNuxtConfig({
                     name: 'color-scheme',
                     content: 'dark light',
                 },
+                {
+                    name: 'keywords',
+                    content:
+                        'Product designer,Cambodia,Remote designer,Freelance design,Graphic design,Digital illustration,Creative solutions,Branding,Advertising,User experience design,User interface design,Logo design,Web design,Social media graphics,Product sketches',
+                },
+                {
+                    name: 'author',
+                    content: 'Souris',
+                },
             ],
             bodyAttrs: {
                 class: 'bg-yellow-50 dark dark:bg-black',

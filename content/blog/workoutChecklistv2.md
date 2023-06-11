@@ -9,10 +9,6 @@ head:
         meta:
             [
                 {
-                    property: 'title',
-                    content: 'Workout Checklist 2.0 Update | Souris',
-                },
-                {
                     property: 'og:title',
                     content: 'Workout Checklist 2.0 Update | Souris',
                 },
@@ -29,10 +25,6 @@ head:
                 {
                     property: 'twitter:description',
                     content: 'Ive been working on the version 2.0 of the Workout Checklist app for the past two months, and its finally here.',
-                },
-                {
-                    proterty: 'keywords',
-                    content: 'workout checklist,free workout app, online workout app',
                 },
             ],
     }

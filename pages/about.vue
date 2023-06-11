@@ -120,18 +120,18 @@ useHead({
         {
             name: 'description',
             content:
-                'I do love minimal design. Being a Cambodian, surrounded by busy-designs, inspired me to make something different, design to solve issue instead of making it look a certain way.',
+                'Souris, a product designer based in Cambodia, offers design services to businesses and individuals looking for creative solutions. With years of experience in graphic design, digital illustration, branding, and UX/UI design, my designs are tailored to match the unique needs of each client.',
         },
 
         {
             property: 'og:description',
             content:
-                'I do love minimal design. Being a Cambodian, surrounded by busy-designs, inspired me to make something different, design to solve issue instead of making it look a certain way.',
+                'Souris, a product designer based in Cambodia, offers design services to businesses and individuals looking for creative solutions. With years of experience in graphic design, digital illustration, branding, and UX/UI design, my designs are tailored to match the unique needs of each client.',
         },
         {
             property: 'twitter:description',
             content:
-                'I do love minimal design. Being a Cambodian, surrounded by busy-designs, inspired me to make something different, design to solve issue instead of making it look a certain way.',
+                'Souris, a product designer based in Cambodia, offers design services to businesses and individuals looking for creative solutions. With years of experience in graphic design, digital illustration, branding, and UX/UI design, my designs are tailored to match the unique needs of each client.',
         },
         {
             property: 'og:type',

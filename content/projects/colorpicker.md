@@ -11,7 +11,6 @@ head:
     {
         meta:
             [
-                { property: 'title', content: 'Colors Picker | Souris' },
                 { property: 'og:title', content: 'Colors Picker | Souris' },
                 {
                     property: 'og:description',
@@ -32,10 +31,6 @@ head:
                 {
                     property: 'twitter:description',
                     content: 'The colors picker is a personal project to help me find and copy color codes faster. It’s based on the old Google material guideline colors. I just made it click to copy the color.',
-                },
-                {
-                    property: 'keywords',
-                    content: 'color picker,google color picker',
                 },
             ],
     }

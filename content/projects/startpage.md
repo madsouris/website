@@ -11,7 +11,6 @@ head:
     {
         meta:
             [
-                { property: 'title', content: 'Startpage | Souris' },
                 { property: 'og:title', content: 'Custom Startpage | Souris' },
                 {
                     property: 'og:description',
@@ -33,7 +32,6 @@ head:
                     property: 'twitter:description',
                     content: 'Inspired by the folks from r/startpage and r/unixporn I decided to make this project. I really help me to open link faster when I launch my web browser.',
                 },
-                { property: 'keywords', content: 'startpage,unixporn' },
             ],
     }
 ---

@@ -8,7 +8,6 @@ head:
     {
         meta:
             [
-                { property: 'title', content: 'New Gallery Page | Souris' },
                 { property: 'og:title', content: 'New Gallery Page | Souris' },
                 {
                     property: 'og:description',
@@ -24,7 +23,6 @@ head:
                     property: 'twitter:description',
                     content: 'I just added gallery page',
                 },
-                { proterty: 'keywords', content: 'blog,gallery' },
             ],
     }
 ---

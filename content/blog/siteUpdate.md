@@ -8,7 +8,6 @@ head:
     {
         meta:
             [
-                { property: 'title', content: 'New year, new site | Souris' },
                 {
                     property: 'og:title',
                     content: 'New year, new site | Souris',
@@ -26,10 +25,6 @@ head:
                 {
                     property: 'twitter:description',
                     content: 'A first blog post for this newly deployed site by Souris, a product designer in Phnom Penh',
-                },
-                {
-                    proterty: 'keywords',
-                    content: 'nuxt,blog,vue,windi,new site with nuxt',
                 },
             ],
     }
