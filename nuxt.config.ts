@@ -6,6 +6,7 @@ export default defineNuxtConfig({
         'nuxt-icon',
         '@nuxt/content',
         '@nuxt/image-edge',
+        'nuxt-gtag',
         [
             '@nuxtjs/robots',
             {
@@ -69,5 +70,8 @@ export default defineNuxtConfig({
         imagekit: {
             baseURL: 'https://ik.imagekit.io/madsouris',
         },
+    },
+    gtag: {
+        id: 'G-V6V0HZZKHK',
     },
 })
