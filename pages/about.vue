@@ -31,7 +31,7 @@
                 <p>
                     Apart from designing and some coding, I also do a variety of
                     activities like sport, draw, photograph, game and enjoy some
-                    movie’s methologies.
+                    movie’s mythologies.
                 </p>
                 <p>
                     My coding career started in 2016, doing some PHP and
@@ -166,11 +166,6 @@ export default defineComponent({
     data() {
         return {
             links: {
-                ig: {
-                    url: 'https://instagram.com/madsouris',
-                    name: 'madsouris',
-                    icon: 'ph:instagram-logo',
-                },
                 ig_2: {
                     url: 'https://instagram.com/bymadsouris',
                     name: 'bymadsouris',
