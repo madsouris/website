@@ -166,11 +166,6 @@ export default defineComponent({
     data() {
         return {
             links: {
-                ig_2: {
-                    url: 'https://instagram.com/bymadsouris',
-                    name: 'bymadsouris',
-                    icon: 'ph:instagram-logo',
-                },
                 github: {
                     url: 'https://github.com/madsouris',
                     name: 'madsouris',
