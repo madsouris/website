@@ -1,4 +1,6 @@
 ---
+import Header from '../components/header.astro'
+
 interface Props {
     title: string
 }
@@ -17,6 +19,7 @@ const { title } = Astro.props
         <title>{title}</title>
     </head>
     <body class="bg-gradient-to-tr from-slate-300 to-gray-50 min-h-screen">
+        <Header/>
         <slot />
     </body>
 </html>
