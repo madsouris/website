@@ -1,0 +1,11 @@
+.page-bg {
+    background: url('/noise.png') repeat;
+}
+
+.btn {
+    @apply inline-flex items-center gap-2 font-sans text-zinc-500 hover:text-indigo-800 font-medium tracking-tight px-4 py-3 rounded-lg bg-slate-50 border-white drop-shadow-md hover:cursor-pointer uppercase;
+}
+
+.btn-icon {
+    @apply inline-flex items-center gap-2 font-sans text-zinc-500 hover:text-indigo-800 font-medium tracking-tight hover:cursor-pointer uppercase;
+}

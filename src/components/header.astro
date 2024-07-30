@@ -1,16 +1,14 @@
 ---
-import { Icon } from 'astro-icon/components'
+import { Image } from 'astro:assets'
+import logo from '../assets/logo.svg'
 ---
 
-<header class="container  lg:w-2/3 px-2 py-4 mx-auto">
-    <div class="inline-flex justify-between w-full">
-        <a href="/">
-            <img src="/logo.svg" alt="logo" class="w-18 md:w-24">
-        </a>
-
-        <button>
-            <Icon name="uim:subject" class="text-3xl" />
-        </button>
-
+<header class="w-full border-b border-slate-20">
+    <div class="container mx-auto p-4 lg:w-2/3">
+        <div class="inline-flex justify-center w-full">
+            <a href="/">
+                <Image src={logo} alt="Logo" class="w-24" />
+            </a>
+        </div>
     </div>
 </header>

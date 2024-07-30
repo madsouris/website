@@ -1,30 +1,74 @@
 ---
 import Layout from '../layouts/Layout.astro'
+import { Icon } from 'astro-icon/components'
+import { Image } from 'astro:assets'
+import me from '../assets/me.jpeg'
 ---
 
 <Layout title="Welcome to Astro.">
-    <div class="container mx-auto lg:w-2/3 px-2 mt-8">
+    <div class="container mx-auto lg:w-2/3 p-4 mt-8">
         <section class="container mx-auto">
-            <div class="grid grid-cols-6 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-6 gap-4">
                 <div
-                    class="col-span-4 p-6 rounded-2xl border border-white bg-slate-100 drop-shadow-xl">
+                    class="w-full md:col-span-4 p-6 text-center flex flex-col justify-center items-center gap-0">
                     <h1
-                        class="text-5xl tracking-tight font-bold font-sans mb-2 text-zinc-800">
-                        Welcome.
+                        class="text-4xl md:text-5xl lg:text-7xl tracking-tight font-extrabold font-sans text-stone-700">
+                        Vannrith V.
                     </h1>
-                    <p class="font-sans text-zinc-500 tracking-tight mb-8">
-                        I am a product and graphic designer currently working in
-                        Phnom Penh, Cambodia. Clear big bold designs satisfied
-                        me.
+                    <p class="font-sans text-indigo-800 tracking-tight">
+                        UI & UX & Graphic Designer
                     </p>
-                    <a
-                        class="font-sans text-zinc-500 font-medium tracking-tight px-4 py-3 rounded-lg bg-slate-50 border-white drop-shadow-md hover:cursor-pointer">
-                        Project</a
-                    >
+                    <p
+                        class="font-sans text-zinc-500 tracking-tight my-6 text-xl">
+                        A designer by day and an artist by night <br /> from Kingdom
+                        of Cambodia.
+                    </p>
+                    <div class="inline-flex items-center gap-4">
+                        <a
+                            class="btn"
+                            href="mailto:me@vannrith.com"
+                            target="_blank">
+                            <Icon
+                                name="uim:comment-alt-dots"
+                                class="text-2xl lg:text-xl"
+                            />
+                            Email
+                        </a>
+                        <a
+                            class="btn-icon"
+                            href="//linkedin.com/in/madsouris"
+                            target="_blank">
+                            <Icon
+                                name="uim:linkedin"
+                                class="text-2xl lg:text-xll"
+                            />
+                        </a>
+                        <a
+                            class="btn-icon"
+                            href="//dribbble.com/madsouris"
+                            target="_blank">
+                            <Icon
+                                name="uim:dribbble"
+                                class="text-2xl lg:text-xl"
+                            />
+                        </a>
+                        <a
+                            class="btn-icon"
+                            href="//instagram.com/madsouris"
+                            target="_blank">
+                            <Icon
+                                name="uim:instagram"
+                                class="text-2xl lg:text-xl"
+                            />
+                        </a>
+                    </div>
                 </div>
-                <div
-                    class="col-span-2 rounded-2xl border border-white bg-slate-100 drop-shadow-xl">
-                    <img src="me.jpeg" alt="Souris" class="w-full object-cover rounded-2xl">
+                <div class="w-full md:col-span-2">
+                    <Image
+                        src={me}
+                        alt="Souris"
+                        class="w-full object-cover rounded-2xl border border-white drop-shadow-xl"
+                    />
                 </div>
             </div>
         </section>
