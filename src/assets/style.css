@@ -31,3 +31,25 @@
 .card-subtitle {
     @apply font-sans text-sm tracking-tight text-stone-500;
 }
+
+.work-card {
+    @apply flex flex-col gap-0 rounded-2xl bg-gradient-to-b from-slate-300 to-white p-[1px];
+}
+
+.work-card-inner {
+    background-color: #f1f5f9;
+    opacity: 1;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+        45deg,
+        #ebebf6 0,
+        #ebebf6 0.6000000000000001px,
+        #f1f5f9 0,
+        #f1f5f9 50%
+    );
+    @apply rounded-2xl p-4;
+}
+
+.work-title {
+    @apply font-sans text-lg font-semibold tracking-tight text-stone-600;
+}
