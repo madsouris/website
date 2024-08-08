@@ -1,0 +1,63 @@
+---
+import Header from '../components/header.astro'
+import Footer from '../components/footer.astro'
+import { Icon } from 'astro-icon/components'
+import '../assets/style.css'
+
+const { frontmatter } = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Designer based in Cambodia" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{frontmatter.title}</title>
+        <script
+            src="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js"
+        ></script>
+    </head>
+    <body
+        class="page-bg min-h-screen"
+        x-data="{ isSticky: false }"
+        @scroll.window="isSticky = (window.scrollY > 133)">
+        <Header />
+        <div
+            class="w-full border-b border-slate-200 mb-6 sticky top-0"
+            :class="isSticky ? 'page-bg backdrop-blur-md' : 'bg-transparent'">
+            <div class="container lg:w-1/2 2xl:w-1/3 mx-auto">
+                <a
+                    href="/#project"
+                    class="text-sm px-4 md:px-16 font-sans font-medium tracking-tight no-underline inline-flex items-center gap-4 w-full py-6"
+                    :class="isSticky ? 'text-stone-500' : 'text-indigo-800'">
+                    <Icon name="uim:corner-up-left" />
+                    Go back
+                </a>
+            </div>
+        </div>
+
+        <div
+            class="container lg:w-1/2 2xl:w-1/3 mx-auto mb-6 prose max-w-prose prose-p:tracking-tight prose-p:text-stone-500 prose-headings:tracking-tight prose-headings:text-stone-600 prose-headings:font-bold px-4">
+            <h1
+                class="text-4xl md:text-5xl lg:text-7xl tracking-tight font-extrabold font-sans text-stone-700 mb-0">
+                {frontmatter.title}
+            </h1>
+            <p class="text-sm font-sans text-indigo-800 tracking-tight">
+                By Vannrith V.
+            </p>
+            <hr />
+            <slot />
+            <a
+                href="/#project"
+                class="text-sm font-sans text-indigo-800 tracking-tight mt-6 no-underline inline-flex items-center gap-4">
+                <Icon name="uim:corner-up-left" />
+                Go back
+            </a>
+        </div>
+
+        <Footer />
+    </body>
+</html>

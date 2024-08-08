@@ -1,5 +1,6 @@
 ---
 import Header from '../components/header.astro'
+import Footer from '../components/footer.astro'
 import '../assets/style.css'
 
 interface Props {
@@ -25,5 +26,6 @@ const { title } = Astro.props
     <body class="page-bg min-h-screen">
         <Header />
         <slot />
+        <Footer />
     </body>
 </html>
