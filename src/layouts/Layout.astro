@@ -8,17 +8,38 @@ interface Props {
 }
 
 const { title } = Astro.props
+const description =
+    'Vannrith, a product designer based in Cambodia, offers design services to businesses and individuals looking for creative solutions. With years of experience in graphic design, digital illustration, branding, and UX/UI design, my designs are tailored to match the unique needs of each client.'
 ---
 
 <!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="description" content="Designer based in Cambodia" />
+
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="generator" content={Astro.generator} />
+        <meta name="theme-color" content="#cbd5e1" />
+        <meta name="color-scheme" content="light" />
         <title>{title}</title>
+        <meta
+            name="keywords"
+            content="Product designer,Cambodia,Remote designer,Freelance design,Graphic design,Digital illustration,Creative solutions,Branding,Advertising,User experience design,User interface design,Logo design,Web design,Social media graphics,Product sketches"
+        />
+        <meta name="author" content="Vannrith" />
+        <meta name="description" content={description} />
+        <meta property="twitter:title" content={title} />
+        <meta property="og:title" content={title} />
+        <meta name="description" content={description} />
+        <meta property="og:description" content={description} />
+        <meta property="twitter:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://vannrith.com" />
+        <meta property="og:image" content="/feature.jpg" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://vannrith.com" />
+        <meta property="twitter:image" content="/feature.jpg" />
         <script
             src="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js"
         ></script>

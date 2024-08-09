@@ -1,5 +1,7 @@
 ---
 layout: ../../layouts/projectDetail.astro
+status: 'Active'
+duration: '2019 - Present'
 title: 'Ronin Pentest Design Project'
 description: 'Ronin Pentest is a cybersecurity consultancy. Me, the project was started in late 2019, and I was brought in for the web and graphic design. It’s a very big project.'
 ---
