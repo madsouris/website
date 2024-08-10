@@ -1,0 +1,75 @@
+.page-bg {
+    background: url('/noise.png') repeat;
+}
+
+.btn {
+    @apply rounded-2xl bg-gradient-to-b from-purple-300 to-purple-700 p-[1px] shadow-md hover:shadow-xl;
+}
+
+.btn-inner {
+    @apply inline-flex items-center gap-4 rounded-2xl bg-gradient-to-b from-purple-400 to-purple-500 px-4 py-3 font-sans font-bold tracking-tight text-white shadow hover:to-purple-600;
+}
+
+.btn-icon {
+    @apply inline-flex items-center gap-4 font-sans font-medium uppercase tracking-tight text-zinc-500 hover:cursor-pointer hover:text-indigo-500;
+}
+
+.card-bg {
+    background-color: #f1f5f9;
+    opacity: 1;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+        45deg,
+        #ebebf6 0,
+        #ebebf6 0.6000000000000001px,
+        #f1f5f9 0,
+        #f1f5f9 50%
+    );
+    @apply inline-flex cursor-pointer gap-4 rounded-2xl border bg-slate-50 p-4 hover:border-white hover:drop-shadow;
+}
+
+.card-title {
+    @apply font-sans text-xl font-bold tracking-tight text-stone-600;
+}
+
+.card-subtitle {
+    @apply font-sans text-sm tracking-tight text-stone-500;
+}
+
+.work-card {
+    @apply flex flex-col gap-0 rounded-2xl bg-gradient-to-b from-slate-300 to-white p-[1px];
+}
+
+.work-card-inner {
+    background-color: #f1f5f9;
+    opacity: 1;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(
+        45deg,
+        #ebebf6 0,
+        #ebebf6 0.6000000000000001px,
+        #f1f5f9 0,
+        #f1f5f9 50%
+    );
+    @apply rounded-2xl p-4;
+}
+
+.work-title {
+    @apply font-sans text-lg font-semibold tracking-tight text-stone-600;
+}
+
+.project-detail-wrapper {
+    @apply mb-6 inline-flex items-center justify-start gap-2 md:gap-4;
+}
+
+.project-detail {
+    @apply inline-flex items-center gap-2 rounded-lg bg-indigo-100 p-2 font-sans text-xs font-medium tracking-tight text-indigo-800 md:px-3 md:py-2 md:text-sm;
+}
+
+.project-content {
+    @apply container prose mx-auto mb-6 max-w-prose px-4 prose-headings:font-bold prose-headings:tracking-tight prose-headings:text-stone-600 prose-p:tracking-tight prose-p:text-stone-500 prose-li:text-stone-500 lg:w-1/2 2xl:w-1/3;
+}
+
+.project-name {
+    @apply mb-4 font-sans text-4xl font-extrabold tracking-tight text-stone-700 md:text-5xl lg:text-7xl;
+}

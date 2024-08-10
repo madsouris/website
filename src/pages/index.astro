@@ -1,0 +1,304 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { Icon } from 'astro-icon/components'
+import { Image } from 'astro:assets'
+import me from '../assets/me.jpeg'
+
+const imageCount = 27
+const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
+---
+
+<Layout title="Vannrith the Designer | Vannrith.com">
+    <!-- Hero section -->
+    <div class="container mx-auto lg:w-2/3 p-4 mt-8">
+        <section class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-6 gap-4">
+                <div
+                    class="w-full md:col-span-4 p-6 text-center flex flex-col justify-center items-center gap-0">
+                    <h1
+                        class="text-4xl md:text-5xl lg:text-7xl tracking-tight font-extrabold font-sans text-stone-700">
+                        Vannrith V.
+                    </h1>
+                    <p class="text-sm font-sans text-indigo-800 tracking-tight">
+                        UI & UX & Graphic Designer
+                    </p>
+                    <p
+                        class="font-sans text-zinc-500 tracking-tight my-6 md:text-xl">
+                        A designer by day and an artist by night <br /> from Kingdom
+                        of Cambodia.
+                    </p>
+                    <div class="inline-flex items-center gap-4">
+                        <a
+                            class="btn"
+                            href="mailto:me@vannrith.com"
+                            target="_blank">
+                            <p class="btn-inner">
+                                <Icon
+                                    name="uim:comment-alt-dots"
+                                    class="text-2xl lg:text-xl"
+                                />
+                                Email
+                            </p>
+                        </a>
+                        <a
+                            class="btn-icon"
+                            href="//linkedin.com/in/madsouris"
+                            rel="nofollow"
+                            target="_blank">
+                            <Icon
+                                name="uim:linkedin"
+                                class="text-2xl lg:text-xll"
+                            />
+                        </a>
+                        <a
+                            class="btn-icon"
+                            rel="nofollow"
+                            href="//dribbble.com/madsouris"
+                            target="_blank">
+                            <Icon
+                                name="uim:dribbble"
+                                class="text-2xl lg:text-xl"
+                            />
+                        </a>
+                        <a
+                            class="btn-icon"
+                            rel="nofollow"
+                            href="//instagram.com/madsouris"
+                            target="_blank">
+                            <Icon
+                                name="uim:instagram"
+                                class="text-2xl lg:text-xl"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full md:col-span-2">
+                    <Image
+                        src={me}
+                        alt="Souris"
+                        class="w-full object-cover rounded-2xl border border-white drop-shadow-xl"
+                    />
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Work section -->
+    <section
+        class="w-full bg-gradient-to-br from-slate-200 to-gray-50 mt-8"
+        id="project">
+        <div class="container mx-auto lg:w-2/3">
+            <div class="grid grid-cols-5 px-4 py-14 gap-4">
+                <div class="col-span-5 md:col-span-3 flex flex-col gap-2">
+                    <h2
+                        class="font-sans text-zinc-500 tracking-tight font-medium">
+                        Projects
+                    </h2>
+                    <a href="/projects/ronin" class="card-bg">
+                        <div
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            <img
+                                src="https://ik.imagekit.io/madsouris/vannrith/graphic/6.jpg?tr=w-250"
+                                alt="Ronin Pentest"
+                                class="rounded-lg aspect-square object-cover"
+                            />
+                        </div>
+                        <div class="flex flex-col gap-0 flex-grow">
+                            <h3 class="card-title">Ronin Pentest</h3>
+                            <p class="card-subtitle">Design (UI & Graphic)</p>
+                        </div>
+                    </a>
+                    <a href="/projects/pivot" class="card-bg">
+                        <div
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            <img
+                                src="https://ik.imagekit.io/madsouris/vannrith/projects/pivot-thumb.jpg?tr=w-250"
+                                alt="Pivot management"
+                                class="rounded-lg aspect-square object-cover"
+                            />
+                        </div>
+                        <div class="flex flex-col gap-0 flex-grow">
+                            <h3 class="card-title">Pivot Management Company</h3>
+                            <p class="card-subtitle">Design & Development</p>
+                        </div>
+                    </a>
+                    <a href="/projects/hangme" class="card-bg">
+                        <div
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            <img
+                                src="https://ik.imagekit.io/madsouris/vannrith/projects/hangme-thumb.jpg?tr=w-250"
+                                alt="Hangme"
+                                class="rounded-lg aspect-square object-cover"
+                            />
+                        </div>
+                        <div class="flex flex-col gap-0 flex-grow">
+                            <h3 class="card-title">
+                                Hangme E-commerce Platform
+                            </h3>
+                            <p class="card-subtitle">Design & Development</p>
+                        </div>
+                    </a>
+                    <a href="/projects/workout" class="card-bg">
+                        <div
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            <img
+                                src="https://ik.imagekit.io/madsouris/vannrith/projects/workoutchecklist-thumb.jpg?tr=w-250"
+                                alt="Workout checklist"
+                                class="rounded-lg aspect-square object-cover"
+                            />
+                        </div>
+                        <div class="flex flex-col gap-0 flex-grow">
+                            <h3 class="card-title">Workout Checklist PWA</h3>
+                            <p class="card-subtitle">Design & Development</p>
+                        </div>
+                    </a>
+                    <a href="/projects/cattie" class="card-bg">
+                        <div
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            <img
+                                src="https://ik.imagekit.io/madsouris/vannrith/projects/cattie-thumb.jpg?tr=w-250"
+                                alt="Cattie Outfit"
+                                class="rounded-lg aspect-square object-cover"
+                            />
+                        </div>
+                        <div class="flex flex-col gap-0 flex-grow">
+                            <h3 class="card-title">
+                                Cattie Outfit Online Store
+                            </h3>
+                            <p class="card-subtitle">Design & Development</p>
+                        </div>
+                    </a>
+                    <a href="/projects/colorpicker" class="card-bg">
+                        <div
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            <img
+                                src="https://ik.imagekit.io/madsouris/vannrith/projects/colors-thumb.jpg?tr=w-250"
+                                alt="Colors Picker"
+                                class="rounded-lg aspect-square object-cover"
+                            />
+                        </div>
+                        <div class="flex flex-col gap-0 flex-grow">
+                            <h3 class="card-title">
+                                Colors Picker (Based on Old Google's Guideline)
+                            </h3>
+                            <p class="card-subtitle">Design & Development</p>
+                        </div>
+                    </a>
+                    <a href="/projects/meta" class="card-bg">
+                        <div
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            <img
+                                src="https://ik.imagekit.io/madsouris/vannrith/projects/meta.png?tr=w-250"
+                                alt="Meta Donation"
+                                class="rounded-lg aspect-square object-cover"
+                            />
+                        </div>
+                        <div class="flex flex-col gap-0 flex-grow">
+                            <h3 class="card-title">
+                                Meta Donation App Prototype
+                            </h3>
+                            <p class="card-subtitle">Design & Development</p>
+                        </div>
+                    </a>
+                    <a href="/projects/startpage" class="card-bg">
+                        <div
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            <img
+                                src="https://ik.imagekit.io/madsouris/vannrith/projects/startpage-thumb.jpg?tr=w-250"
+                                alt="Start page"
+                                class="rounded-lg aspect-square object-cover"
+                            />
+                        </div>
+                        <div class="flex flex-col gap-0 flex-grow">
+                            <h3 class="card-title">Custom Startpage</h3>
+                            <p class="card-subtitle">Design & Development</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-span-5 md:col-span-2 flex flex-col gap-2">
+                    <h2
+                        class="font-sans text-zinc-500 tracking-tight font-medium">
+                        Work History
+                    </h2>
+                    <div class="card-bg w-full flex flex-col gap-2">
+                        <div class="work-card">
+                            <div class="work-card-inner">
+                                <h3 class="work-title">Ronin Pentest</h3>
+                                <p class="card-subtitle">
+                                    UI & Graphic Designer
+                                </p>
+                                <p class="card-subtitle">2019 - Present</p>
+                            </div>
+                        </div>
+                        <div class="work-card">
+                            <div class="work-card-inner">
+                                <h3 class="work-title">RS Digital Ventures</h3>
+                                <p class="card-subtitle">
+                                    UI & UX & Graphic Designer
+                                </p>
+                                <p class="card-subtitle">2019 - 2022</p>
+                            </div>
+                        </div>
+                        <div class="work-card">
+                            <div class="work-card-inner">
+                                <h3 class="work-title">Clik</h3>
+                                <p class="card-subtitle">
+                                    Senior UI & UX & Graphic Designer
+                                </p>
+                                <p class="card-subtitle">2017 - 2019</p>
+                            </div>
+                        </div>
+                        <div class="work-card">
+                            <div class="work-card-inner">
+                                <h3 class="work-title">Wavy Support</h3>
+                                <p class="card-subtitle">
+                                    Front End Web Developer
+                                </p>
+                                <p class="card-subtitle">2017 -2017</p>
+                            </div>
+                        </div>
+                        <div class="work-card">
+                            <div class="work-card-inner">
+                                <h3 class="work-title">Ardor SEO</h3>
+                                <p class="card-subtitle">
+                                    Junior Web Developer
+                                </p>
+                                <p class="card-subtitle">2016 - 2017</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery section -->
+    <div class="container mx-auto lg:w-2/3 p-4 my-8">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {
+                Array.from({ length: imageCount }, (_, i) => (
+                    <a href={`${imagePath}${i + 1}.jpg`} class="spotlight">
+                        <img
+                            src={`${imagePath}${i + 1}.jpg?tr=w-400`}
+                            alt={`Project sample ${i + 1}`}
+                            class="rounded-lg aspect-video object-cover border border-zinc-100 hover:border-white hover:drop-shadow cursor-pointer"
+                        />
+                    </a>
+                ))
+            }
+        </div>
+        <div
+            class="w-full mt-4 text-center inline-flex items-center justify-center">
+            <a
+                href="//dribbble.com/madsouris"
+                class="btn"
+                rel="nofollow"
+                target="_blank">
+                <p class="btn-inner">
+                    <Icon name="uim:dribbble" class="text-2xl lg:text-xl" />
+                    View more on Dribbble
+                </p>
+            </a>
+        </div>
+    </div>
+</Layout>

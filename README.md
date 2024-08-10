@@ -1,49 +1,42 @@
-# Built with Nuxt 3
+# Vannrith.com built with Astro
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7c2e8e73-7a83-40ab-a46b-074f05d701bc/deploy-status)](https://app.netlify.com/sites/affectionate-hermann-995b25/deploys)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
 
-Make sure to install the dependencies:
+![Feature Image](./public/feature.jpg)
 
-```bash
-# npm
-npm install
+## 🚀 Project Structure
 
+```text
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   └── Card.astro
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
 ```
 
-## Development Server
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-```bash
-npm run dev
-```
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-## Production
+Any static assets, like images, can be placed in the `public/` directory.
 
-Build the application for production:
+## 🧞 Commands
 
-```bash
-npm run build
-```
+All commands are run from the root of the project, from a terminal:
 
-Locally preview production build:
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-# Adding project
-
--   Copy sample of the markdown file
--   Modify the content
--   Rebuild
-
-# Adding a blog
-
--   Copy sample of the blog markdown file
--   Change content
--   Rebuild

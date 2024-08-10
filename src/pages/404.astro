@@ -1,0 +1,16 @@
+---
+import { Image } from 'astro:assets'
+import logo from '../assets/logo.svg'
+import '../assets/style.css'
+---
+
+<div
+    class="w-full min-h-screen flex flex-col justify-center items-center page-bg">
+    <a href="/">
+        <Image src={logo} alt="Logo" class="w-24" />
+    </a>
+    <p class="p-4 card-subtitle text-center mt-4">
+        What you're looking for cannot be found. <br /> Click on the logo to go to
+        homepage.
+    </p>
+</div>
