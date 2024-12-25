@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
 .page-bg {
     background: url('/noise.png') repeat;
 }
@@ -7,11 +13,11 @@
 }
 
 .btn-inner {
-    @apply inline-flex items-center gap-4 rounded-2xl bg-gradient-to-b from-purple-400 to-purple-500 px-4 py-3 font-sans font-bold tracking-tight text-white shadow hover:to-purple-600;
+    @apply inline-flex items-center gap-4 rounded-2xl bg-gradient-to-b from-purple-400 to-purple-500 px-4 py-3 font-medium tracking-tight text-white shadow hover:to-purple-600;
 }
 
 .btn-icon {
-    @apply inline-flex items-center gap-4 font-sans font-medium uppercase tracking-tight text-zinc-500 hover:cursor-pointer hover:text-indigo-500;
+    @apply inline-flex items-center gap-4 font-medium uppercase tracking-tight text-zinc-500 hover:cursor-pointer hover:text-indigo-500;
 }
 
 .card-bg {
@@ -29,11 +35,11 @@
 }
 
 .card-title {
-    @apply font-sans text-xl font-bold tracking-tight text-stone-600;
+    @apply text-xl font-medium tracking-tight text-stone-600;
 }
 
 .card-subtitle {
-    @apply font-sans text-sm tracking-tight text-stone-500;
+    @apply text-sm tracking-tight text-stone-500;
 }
 
 .work-card {
@@ -55,7 +61,7 @@
 }
 
 .work-title {
-    @apply font-sans text-lg font-semibold tracking-tight text-stone-600;
+    @apply text-lg font-medium tracking-tight text-stone-600;
 }
 
 .project-detail-wrapper {
@@ -63,13 +69,13 @@
 }
 
 .project-detail {
-    @apply inline-flex items-center gap-2 rounded-lg bg-indigo-100 p-2 font-sans text-xs font-medium tracking-tight text-indigo-800 md:px-3 md:py-2 md:text-sm;
+    @apply inline-flex items-center gap-2 rounded-lg bg-indigo-100 p-2 text-xs font-medium tracking-tight text-indigo-800 md:px-3 md:py-2 md:text-sm;
 }
 
 .project-content {
-    @apply container prose mx-auto mb-6 max-w-prose px-4 prose-headings:font-bold prose-headings:tracking-tight prose-headings:text-stone-600 prose-p:tracking-tight prose-p:text-stone-500 prose-li:text-stone-500 lg:w-1/2 2xl:w-1/3;
+    @apply container prose mx-auto mb-6 !max-w-none px-4 prose-headings:font-bold prose-headings:tracking-tight prose-headings:text-stone-600 prose-p:tracking-tight prose-p:text-stone-500 prose-li:text-stone-500 lg:w-1/2 2xl:w-1/3;
 }
 
 .project-name {
-    @apply mb-4 font-sans text-4xl font-extrabold tracking-tight text-stone-700 md:text-5xl lg:text-7xl;
+    @apply mb-4 text-4xl font-bold tracking-tight text-stone-700 md:text-5xl lg:text-6xl;
 }

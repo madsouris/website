@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/projectDetail.astro
 status: 'Discontinued'
-duration: '2019 - Present'
+duration: '2019 - 2020'
 title: 'Cattie Outfit'
 description: 'Cattie Outfit is an online clothes retailer based in Phnom Penh, and ships countrywide in Cambodia.'
 ---
