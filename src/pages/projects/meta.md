@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/projectDetail.astro
 status: 'Discontinued'
-duration: '2022'
+duration: '2022 -  2022'
 title: 'Meta donation app prototype'
 description: 'Meta was an app prototype for donations. Users can donate to various charities using multiple payment solutions and collect the badges.'
 ---

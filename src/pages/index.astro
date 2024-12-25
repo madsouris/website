@@ -16,14 +16,13 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
                 <div
                     class="w-full md:col-span-4 p-6 text-center flex flex-col justify-center items-center gap-0">
                     <h1
-                        class="text-4xl md:text-5xl lg:text-7xl tracking-tight font-extrabold font-sans text-stone-700">
+                        class="text-4xl md:text-5xl lg:text-7xl tracking-tight font-bold text-stone-700">
                         Vannrith V.
                     </h1>
-                    <p class="text-sm font-sans text-indigo-800 tracking-tight">
+                    <p class="text-sm text-indigo-800 tracking-tight">
                         UI & UX & Graphic Designer
                     </p>
-                    <p
-                        class="font-sans text-zinc-500 tracking-tight my-6 md:text-xl">
+                    <p class="text-zinc-500 tracking-tight my-6 md:text-xl">
                         A designer by day and an artist by night <br /> from Kingdom
                         of Cambodia.
                     </p>
@@ -76,7 +75,7 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
                     <Image
                         src={me}
                         alt="Souris"
-                        class="w-full object-cover rounded-2xl border border-white drop-shadow-xl"
+                        class="w-full object-cover rounded-2xl border border-white drop-shadow-xl rotate-1"
                     />
                 </div>
             </div>
@@ -91,16 +90,34 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
             <div class="grid grid-cols-5 px-4 py-14 gap-4">
                 <div class="col-span-5 md:col-span-3 flex flex-col gap-2">
                     <h2
-                        class="font-sans text-zinc-500 tracking-tight font-medium">
+                        class="text-zinc-500 tracking-tight font-medium text-sm">
                         Projects
                     </h2>
+                    <a href="/projects/maiora" class="card-bg">
+                        <div
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0 aspect-square">
+                            <img
+                                src="https://ik.imagekit.io/madsouris/vannrith/projects/maiora.jpg?tr=w-250"
+                                alt="Maiora Ventures"
+                                class="object-cover h-full w-full rounded-lg"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="flex flex-col gap-0 flex-grow">
+                            <h3 class="card-title">Maiora Ventures</h3>
+                            <p class="card-subtitle">
+                                Design & Development (Logo & Web)
+                            </p>
+                        </div>
+                    </a>
                     <a href="/projects/ronin" class="card-bg">
                         <div
-                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0 aspect-square">
                             <img
-                                src="https://ik.imagekit.io/madsouris/vannrith/graphic/6.jpg?tr=w-250"
+                                src="https://ik.imagekit.io/madsouris/vannrith/projects/roninThumb.jpg?tr=w-250"
                                 alt="Ronin Pentest"
-                                class="rounded-lg aspect-square object-cover"
+                                class="object-cover h-full w-full rounded-lg"
+                                loading="lazy"
                             />
                         </div>
                         <div class="flex flex-col gap-0 flex-grow">
@@ -110,11 +127,12 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
                     </a>
                     <a href="/projects/pivot" class="card-bg">
                         <div
-                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0 aspect-square">
                             <img
                                 src="https://ik.imagekit.io/madsouris/vannrith/projects/pivot-thumb.jpg?tr=w-250"
                                 alt="Pivot management"
-                                class="rounded-lg aspect-square object-cover"
+                                class="object-cover h-full w-full rounded-lg"
+                                loading="lazy"
                             />
                         </div>
                         <div class="flex flex-col gap-0 flex-grow">
@@ -124,11 +142,12 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
                     </a>
                     <a href="/projects/hangme" class="card-bg">
                         <div
-                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0 aspect-square">
                             <img
                                 src="https://ik.imagekit.io/madsouris/vannrith/projects/hangme-thumb.jpg?tr=w-250"
                                 alt="Hangme"
-                                class="rounded-lg aspect-square object-cover"
+                                class="object-cover h-full w-full rounded-lg"
+                                loading="lazy"
                             />
                         </div>
                         <div class="flex flex-col gap-0 flex-grow">
@@ -140,11 +159,12 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
                     </a>
                     <a href="/projects/workout" class="card-bg">
                         <div
-                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0 aspect-square">
                             <img
                                 src="https://ik.imagekit.io/madsouris/vannrith/projects/workoutchecklist-thumb.jpg?tr=w-250"
                                 alt="Workout checklist"
-                                class="rounded-lg aspect-square object-cover"
+                                class="object-cover h-full w-full rounded-lg"
+                                loading="lazy"
                             />
                         </div>
                         <div class="flex flex-col gap-0 flex-grow">
@@ -154,11 +174,12 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
                     </a>
                     <a href="/projects/cattie" class="card-bg">
                         <div
-                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0 aspect-square">
                             <img
                                 src="https://ik.imagekit.io/madsouris/vannrith/projects/cattie-thumb.jpg?tr=w-250"
                                 alt="Cattie Outfit"
-                                class="rounded-lg aspect-square object-cover"
+                                class="object-cover h-full w-full rounded-lg"
+                                loading="lazy"
                             />
                         </div>
                         <div class="flex flex-col gap-0 flex-grow">
@@ -170,11 +191,12 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
                     </a>
                     <a href="/projects/colorpicker" class="card-bg">
                         <div
-                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0 aspect-square">
                             <img
                                 src="https://ik.imagekit.io/madsouris/vannrith/projects/colors-thumb.jpg?tr=w-250"
                                 alt="Colors Picker"
-                                class="rounded-lg aspect-square object-cover"
+                                class="object-cover h-full w-full rounded-lg"
+                                loading="lazy"
                             />
                         </div>
                         <div class="flex flex-col gap-0 flex-grow">
@@ -186,11 +208,12 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
                     </a>
                     <a href="/projects/meta" class="card-bg">
                         <div
-                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0 aspect-square">
                             <img
                                 src="https://ik.imagekit.io/madsouris/vannrith/projects/meta.png?tr=w-250"
                                 alt="Meta Donation"
-                                class="rounded-lg aspect-square object-cover"
+                                class="object-cover h-full w-full rounded-lg"
+                                loading="lazy"
                             />
                         </div>
                         <div class="flex flex-col gap-0 flex-grow">
@@ -202,11 +225,12 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
                     </a>
                     <a href="/projects/startpage" class="card-bg">
                         <div
-                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0">
+                            class="rounded-lg w-16 h-16 bg-slate-500 flex-shrink-0 aspect-square">
                             <img
                                 src="https://ik.imagekit.io/madsouris/vannrith/projects/startpage-thumb.jpg?tr=w-250"
                                 alt="Start page"
-                                class="rounded-lg aspect-square object-cover"
+                                class="object-cover h-full w-full rounded-lg"
+                                loading="lazy"
                             />
                         </div>
                         <div class="flex flex-col gap-0 flex-grow">
@@ -217,7 +241,7 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
                 </div>
                 <div class="col-span-5 md:col-span-2 flex flex-col gap-2">
                     <h2
-                        class="font-sans text-zinc-500 tracking-tight font-medium">
+                        class="text-zinc-500 tracking-tight font-medium text-sm">
                         Work History
                     </h2>
                     <div class="card-bg w-full flex flex-col gap-2">
@@ -278,11 +302,14 @@ const imagePath = 'https://ik.imagekit.io/madsouris/vannrith/new/'
             {
                 Array.from({ length: imageCount }, (_, i) => (
                     <a href={`${imagePath}${i + 1}.jpg`} class="spotlight">
-                        <img
-                            src={`${imagePath}${i + 1}.jpg?tr=w-400`}
-                            alt={`Project sample ${i + 1}`}
-                            class="rounded-lg aspect-video object-cover border border-zinc-100 hover:border-white hover:drop-shadow cursor-pointer"
-                        />
+                        <div class="aspect-video overflow-hidden rounded-lg border border-zinc-100 hover:border-white hover:drop-shadow cursor-pointer">
+                            <img
+                                src={`${imagePath}${i + 1}.jpg?tr=w-400`}
+                                alt={`Project sample ${i + 1}`}
+                                class="object-cover w-full h-full"
+                                loading="lazy"
+                            />
+                        </div>
                     </a>
                 ))
             }

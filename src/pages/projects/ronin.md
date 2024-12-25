@@ -10,7 +10,7 @@ Ronin Pentest is a cybersecurity consultancy. Me, the project was started in lat
 
 # Ronin’s mission
 
-![Ronin website](https://ik.imagekit.io/madsouris/vannrith/projects/Ronin-Pentest-Home.png?tr=w-1200)
+![Ronin website](https://ik.imagekit.io/madsouris/vannrith/projects/roninSite.jpg?tr=w-1200)
 To demystify the process of security for businesses helping them to be both compliant and secure as possible from cyber attacks without having to spend a fortune.
 
 # My role
